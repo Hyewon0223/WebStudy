@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+h3 {
+    font-family : 'Itim', cursive;
+    margin-left : 10px;
+}
+
+input{
+    font-family : 'Itim', cursive;
+    margin-left : 10px;
+    text-color : blueviolet;
+}
+
+input::placeholder{
+    font-family : 'Itim', cursive;
+    color : blueviolet;
+}
+
+input:focus {
+    border-color : blueviolet;
+}
+
+button{
+    margin-left : 5px;
+    font-family : 'Itim', cursive;
+}
+button:hover{
+    background-color : white;
+    color : blueviolet;
+}
+
+#welcome{
+    font-family : 'Itim', cursive;
+    margin-top : 5px;
+    margin-left : 10px;
+}
