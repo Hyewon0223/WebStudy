@@ -2,9 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="TimeLine.css" type="text/css" rel="stylesheet">
     <title>스터디01_TimeLine</title>
 </head>
 <body>
+    <div id = "wrap">
+        <div id = "wrap2">
+            <div id = "visitorCnt">
+                TODAY11&nbsp;|&nbsp;TOTAL14
+            </div>
+            <table>
+                <tr>
+                    <td id = "myInfo">
+                        <p id = "myState">&nbsp;&nbsp;Today is..XD</p>
+                        <img id = "myImg" src = "my_img.jpg" alt = "my_img">
+                        <p id ="introduce">-&nbsp;KMUCS</p>
+                    </td>
+                    <td id = "guest">
+                        <p id ="Title"> 방명록 </p>
+                        <div class = "write">
+                            <input type = "text" placeholder="이름"/>
+                            <button id ="writeButton" onclick="postClick()">작성</button>
+                            <textarea placeholder = "방명록 작성" style="resize: none;"></textarea>
+                        </div>
+                        <div id = "timeLine"></div>
+                    </td>
+                    <td id = "includeButton">
+                        <button class = "index">HOME</button>
+                        <button class = "index">PROFILE</button>
+                        <button class = "index">DIARY</button>
+                        <button class = "index">PHOTO</button>
+                        <button class = "index">BOARD</button>
+                        <button class = "thisIndex">VISITOR</button>
+                        <button class = "index">SETTING</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
 
+
+    <script>
+        let writeCnt = 1;
+        let timeline = document.querySelector("#timeLine");
+        let userName = document.querySelector("input");
+        let postInput = document.querySelector("textarea");
+
+        const postClick = () => {
+            postSNS(userName.value,postInput.value);
+        }
+        const postSNS = (name, description) => {
+            if (name === "") alert("이름을 입력해주세요");
+            else if(description === "") alert("내용을 입력해주세요");
+            else {
+                let container = document.createElement('div');
+                container.setAttribute('class', 'container');
+
+                let owner = document.createElement('h4');
+                let time = document.createElement('p');
+                let content = document.createElement('p');
+
+                owner.appendChild(document.createTextNode("[no." + (writeCnt++) + "]" + name));
+                time.appendChild(document.createTextNode(makeTime()));
+                content.appendChild(document.createTextNode(description));
+
+                container.appendChild(owner);
+                container.appendChild(time);
+                container.appendChild(content);
+
+                console.log(name + " : " + description);
+                timeline.insertBefore(container, timeline.children[0]);
+            }
+        }
+
+        const makeTime = () => {
+            let now = new Date();
+            let date = now.getFullYear() + "." + addZero(now.getMonth() + 1) + "." + addZero(now.getDate());
+            let time = addZero(now.getHours()) + ":"+ addZero(now.getMinutes());
+            let when = "(" + date + "-" + time + ")";
+            return when;
+        }
+
+        const addZero = (num) => {
+            if (num<10) return "0"+num;
+            else return num;
+        }
+    </script>
 </body>
 </html>

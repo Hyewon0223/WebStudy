@@ -1,0 +1,116 @@
+#wrap{
+    background-color: cornflowerblue;
+    width : 750px;
+    height : 550px;
+}
+
+#wrap2{
+    margin-left : 10px;
+    margin-bottom : 10px;
+    background: gray;
+    width : 700px;
+}
+
+#visitorCnt{
+    margin-left : 25px;
+    font-size : 10px;
+}
+
+table{
+    margin-top : 5px;
+}
+
+/*왼쪽 화면 구성*/
+#myInfo{
+    width : 170px;
+    height : 500px;
+    background-color : white;
+    border-radius: 5px 5px 5px 5px;
+    text-align: start;
+    vertical-align: top;
+}
+
+#myState{
+    margin-left : 10px;
+    border-style : solid;
+}
+
+#myImg{
+    margin-left : 10px;
+    width : 150px;
+    height : 150px;
+}
+
+#introduce{
+    margin-left : 5px;
+}
+
+/*오른쪽 화면 구성*/
+#guest{
+    overflow : auto;
+    float : right;
+    margin-left : 10px;
+    background-color : white;
+    border-radius: 5px 5px 5px 5px;
+    width : 400px;
+    height : 500px;
+}
+
+#Title{
+    margin-top : 10px;
+    margin-left : 20px;
+    font-size : 2em;
+}
+
+/*방명록 작성*/
+.write{
+    margin : 20px;
+    background-color: dimgray;
+
+}
+
+input{
+    width :260px;
+    margin : 5px;
+}
+
+textarea{
+    width : 320px;
+    height : 50px;
+    margin : 5px;
+}
+
+#writeButton{
+    margin-top : 5px;
+}
+
+/*새로 추가되는 노드*/
+.container{
+    border-radius : 5px 5px 5px 5px;
+    background-color: lightgray;
+    margin : 20px;
+}
+
+h4, p{
+    margin : 5px;
+}
+
+/*버튼*/
+#includeButton{
+    width : 80px;
+    margin-top : 20px;
+    vertical-align: top;
+}
+
+.index{
+    width : 70px;
+    height : 35px;
+    background: cornflowerblue;
+    color : white;
+}
+
+.thisIndex{
+    width : 70px;
+    height : 35px;
+    background : white;
+}
