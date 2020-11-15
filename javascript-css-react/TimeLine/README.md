@@ -1,5 +1,5 @@
 ## [H01] TimeLine
-### Javascript getch function을 이용한 SNS 타임라인 구성   
+### Javascript fetch function을 이용한 SNS 타임라인 구성   
 ---   
 ### 실행 화면
 #### > 기본 화면
