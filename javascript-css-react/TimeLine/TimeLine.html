@@ -7,7 +7,9 @@
 </head>
 <body>
     <div id = "wrap">
+        <br>
         <div id = "wrap2">
+            <br>
             <div id = "visitorCnt">
                 TODAY11&nbsp;|&nbsp;TOTAL14
             </div>
@@ -19,7 +21,6 @@
                         <p id ="introduce">-&nbsp;KMUCS</p>
                     </td>
                     <td id = "guest">
-                        <p id ="Title"> 방명록 </p>
                         <div class = "write">
                             <input type = "text" placeholder="이름"/>
                             <button id ="writeButton" onclick="postClick()">작성</button>
@@ -28,6 +29,7 @@
                         <div id = "timeLine"></div>
                     </td>
                     <td id = "includeButton">
+                        <br>
                         <button class = "index">HOME</button>
                         <button class = "index">PROFILE</button>
                         <button class = "index">DIARY</button>
@@ -38,6 +40,7 @@
                     </td>
                 </tr>
             </table>
+            <br>
         </div>
     </div>
 
@@ -48,31 +51,57 @@
         let userName = document.querySelector("input");
         let postInput = document.querySelector("textarea");
 
-        const postClick = () => {
-            postSNS(userName.value,postInput.value);
-        }
-        const postSNS = (name, description) => {
-            if (name === "") alert("이름을 입력해주세요");
-            else if(description === "") alert("내용을 입력해주세요");
-            else {
-                let container = document.createElement('div');
-                container.setAttribute('class', 'container');
+        //
+        window.onload = async () => {
+            const postResponse = await fetch('http://ec2-52-78-131-251.ap-northeast-2.compute.amazonaws.com/feed/',{
+                method:'get',
+            });
+            const posts = await postResponse.json();
 
-                let owner = document.createElement('h4');
-                let time = document.createElement('p');
-                let content = document.createElement('p');
-
-                owner.appendChild(document.createTextNode("[no." + (writeCnt++) + "]" + name));
-                time.appendChild(document.createTextNode(makeTime()));
-                content.appendChild(document.createTextNode(description));
-
-                container.appendChild(owner);
-                container.appendChild(time);
-                container.appendChild(content);
-
-                console.log(name + " : " + description);
-                timeline.insertBefore(container, timeline.children[0]);
+            for (let i=0; i<posts.length; i++){
+                console.log(posts[i]);
+                postSNS(posts[i].owner, posts[i].content);
             }
+        }
+
+        const postClick = async() => {
+            if (userName.value === "") alert("이름을 입력해주세요");
+            else if(postInput.value === "") alert("내용을 입력해주세요");
+            postSNS(userName.value,postInput.value);
+
+            await fetch('http://ec2-52-78-131-251.ap-northeast-2.compute.amazonaws.com/feed/',{
+                        method:'post',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            content: postInput.value,
+                            owner: userName.value,
+                        }),
+                    });
+
+            userName.value = "";
+            postInput.value = "";
+        }
+
+        const postSNS = (name, description) => {
+            let container = document.createElement('div');
+            container.setAttribute('class', 'container');
+
+            let owner = document.createElement('h4');
+            let time = document.createElement('p');
+            let content = document.createElement('p');
+
+            owner.appendChild(document.createTextNode("[no." + (writeCnt++) + "]" + name));
+            time.appendChild(document.createTextNode(makeTime()));
+            content.appendChild(document.createTextNode(description));
+
+            container.appendChild(owner);
+            container.appendChild(time);
+            container.appendChild(content);
+
+            console.log(name + " : " + description);
+            timeline.insertBefore(container, timeline.children[0]);
         }
 
         const makeTime = () => {

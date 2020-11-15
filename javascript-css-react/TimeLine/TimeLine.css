@@ -1,17 +1,23 @@
 #wrap{
-    background-color: cornflowerblue;
-    width : 750px;
-    height : 550px;
+    background-color: #7fcde0;
+    width : 620px;
+    height : 610px;
+    border-radius : 5px 5px 5px 5px;
 }
 
 #wrap2{
     margin-left : 10px;
     margin-bottom : 10px;
-    background: gray;
-    width : 700px;
+    background: gainsboro;
+    border-style : dot-dash;
+    border-color: white;
+    width : 600px;
+    border-radius : 5px 5px 5px 5px;
+
 }
 
 #visitorCnt{
+    margin-top : 5px;
     margin-left : 25px;
     font-size : 10px;
 }
@@ -26,6 +32,7 @@ table{
     height : 500px;
     background-color : white;
     border-radius: 5px 5px 5px 5px;
+    margin-left : 10px;
     text-align: start;
     vertical-align: top;
 }
@@ -56,12 +63,6 @@ table{
     height : 500px;
 }
 
-#Title{
-    margin-top : 10px;
-    margin-left : 20px;
-    font-size : 2em;
-}
-
 /*방명록 작성*/
 .write{
     margin : 20px;
@@ -87,7 +88,7 @@ textarea{
 /*새로 추가되는 노드*/
 .container{
     border-radius : 5px 5px 5px 5px;
-    background-color: lightgray;
+    background-color: #e6e6e6;
     margin : 20px;
 }
 
