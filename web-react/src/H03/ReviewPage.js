@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import ReviewTextEdit from "./ReviewTextEdit";
-import AddImage from "./AddImage";
-import WriteReviewButton from "./Button";
-import ReviewStar from "./ReviewStar";
-import Header from "./Header";
-import ReviewMainImage from "./ReviewMainImage";
+import ReviewTextEdit from "./component/ReviewTextEdit";
+import ReviewAddImage from "./component/ReviewAddImage";
+import WriteReviewButton from "./component/ReviewButton";
+import ReviewStar from "./component/ReviewStar";
+import ReviewHeader from "./component/ReviewHeader";
+import ReviewMainImage from "./component/ReviewMainImage";
 
 
 const Wrap = styled.div`
@@ -30,14 +30,14 @@ const BottomDiv = styled.div`
 function ReviewPage(){
     return(
         <Wrap>
-            <Header/>
+            <ReviewHeader/>
             <TopDiv>
                 <ReviewMainImage/>
             </TopDiv>
             <BottomDiv>
                 <ReviewStar/>
                 <ReviewTextEdit/>
-                <AddImage/>
+                <ReviewAddImage/>
                 <WriteReviewButton name = {"리뷰 작성"}/>
             </BottomDiv>
         </Wrap>
