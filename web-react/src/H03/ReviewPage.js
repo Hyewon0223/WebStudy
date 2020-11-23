@@ -10,6 +10,8 @@ import ReviewMainImage from "./component/ReviewMainImage";
 
 const Wrap = styled.div`
     background : #F9F9F9;
+    width: 375px;
+    height: 775px;
 `
 
 const TopDiv = styled.div`
