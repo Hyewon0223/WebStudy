@@ -1,0 +1,41 @@
+.TitleInput{
+	position: absolute;
+	width: 327px;
+	height: 48px;
+	top: 24px;
+	left: 24px;
+
+	background: #F9F9F9;
+	border-radius: 10px;
+	resize: none;
+	border: 0;
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+
+	color: #938E8E;
+}
+
+.ContentInput{
+	position: absolute;
+	width: 327px;
+	height: 142px;
+	left: 24px;
+	top: 82px;
+
+	background: #F9F9F9;
+	border-radius: 10px;
+	resize: none;
+	border: 0;
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+
+	color: #938E8E;
+}
