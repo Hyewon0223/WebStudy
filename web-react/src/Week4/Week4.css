@@ -1,0 +1,53 @@
+.Week4{
+	width: 375px;
+	height: 596px;
+
+	background: #F4F4F4;
+}
+
+#HeaderSection{
+	width: 375px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+}
+
+#ImageSection{
+	left: 0px;
+	top: 52px;
+	width: 375px;
+	height: 219px;
+}
+
+#TextSection{
+	position : absolute;
+	left: 0px;
+	top: 297px;
+	width: 375px;
+	height: 478px;
+		
+	/* background : #000000; */
+	background: #FFFFFF;
+}
+
+#title{
+	position: absolute;
+	width: 327px;
+	height: 48px;
+	left: 24px;
+	top: 24px;
+
+	background: #F9F9F9;
+	border-radius: 10px;		
+}
+
+#content{
+	position: absolute;
+	width: 327px;
+	height: 142px;
+	left: 24px;
+	top: 82px;
+
+	background: #F9F9F9;
+	border-radius: 10px;
+}
