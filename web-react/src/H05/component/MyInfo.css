@@ -1,0 +1,54 @@
+#MyInfoProfile{
+    display: flex;
+    justify-content: center;
+    height : 220px;
+    border-bottom : 1px solid gray;
+}
+
+tr{
+    margin-top : 25px;
+}
+
+#MyProfile{
+    border-radius: 70%;
+    height : 150px;
+    width : 150px;
+}
+
+.MyProfileTxt{
+    margin-left : 50px;
+}
+
+#txt1{
+    display: flex;
+    align-items: center;
+}
+
+#name{
+    font : 25px bold black;
+}
+
+button{
+    font: 15px bold black;
+    margin-left : 15px;
+    border : 1px solid lightgray;
+}
+
+#settingIcon{
+    margin-left : 15px;
+}
+
+#txt2{
+    margin-top : 15px;
+    display: flex;
+    align-items: center;
+}
+
+#txt2 > div{
+    margin-right:30px;
+}
+
+#txt3{
+    margin-top : 15px;
+    font : 15px bold;
+}

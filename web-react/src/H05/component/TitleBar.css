@@ -1,0 +1,48 @@
+#titleBar{
+    height : 50px;
+
+    background-color : #ffffff;
+    flex : 1;
+    position : relative;
+    display: flex;
+    align-items: center;
+    flex-direction : row;
+    justify-content: space-between;
+    border-bottom :  1px solid black;
+}
+
+#titleLogo{
+    margin-left : 20px;
+    height : 40px;
+    width : 140px;
+}
+
+#search{
+    width : 250px;
+    height : 35px;
+    background: #f4f4f4;
+    border: none;
+    font-size: 10pt;
+    text-align: center;
+    color: #63717f;
+    border-radius: 5px;
+}
+
+#menuIcon{
+    margin-right : 20px;
+    justify-content: space-between;
+}
+
+.Icon{
+    margin-left : 10px;
+    height : 30px;
+    weight : 30px;
+}
+
+.profileIcon{
+    margin-left : 10px;
+    height : 30px;
+    weight : 30px;
+    border-radius : 70%;
+}
+
