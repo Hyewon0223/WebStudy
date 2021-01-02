@@ -19,9 +19,9 @@ export function MyInfo(){
                             <img id = "settingIcon" src = {settings}/>
                         </div>
                         <div id = "txt2">
-                            <div>게시물 8</div>
-                            <div>팔로워 157</div>
-                            <div>팔로우 163</div>
+                            <div>게시물 14</div>
+                            <div>팔로워 223</div>
+                            <div>팔로우 223</div>
                         </div>
                         <div id = "txt3">
                             <div>최혜원</div>

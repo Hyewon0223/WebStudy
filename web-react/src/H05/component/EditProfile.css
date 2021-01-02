@@ -1,0 +1,29 @@
+#Edit{
+    margin : auto;
+    border-spacing: 20px;
+}
+
+.label{
+    text-align: right;
+    vertical-align: top;
+}
+
+#profile{
+    border-radius: 70%;
+    width : 70px;
+    height : 70px;
+}
+
+#setID{
+    font : 20px bold black;
+}
+
+table textarea{
+    width : 300px;
+    height : 100px;
+}
+
+#submitDiv{
+    display : flex;
+    justify-content: center;
+}

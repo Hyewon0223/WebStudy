@@ -5,8 +5,8 @@ import {TimeLine} from "../component/TimeLine";
 import {TitleBar} from '../component/TitleBar';
 import './TimeLinePage.css'
 
-async function createFeed(name, body){
-
+export async function createFeed(name, body){
+    console.log("작성",name,body);
     const result = await fetch('http://ec2-52-78-131-251.ap-northeast-2.compute.amazonaws.com/feed/',{
         method: 'post',
         headers: {
@@ -20,7 +20,7 @@ async function createFeed(name, body){
     console.log(await result.json());
 }
 
-async function readFeeds(){
+export async function readFeeds(){
     const feedResult = await fetch('http://ec2-52-78-131-251.ap-northeast-2.compute.amazonaws.com/feed/',{
         method: 'get',
     });
@@ -37,13 +37,16 @@ function TLPage(props){
         server();
     }, []);
 
+    const postBtn = document.querySelector('#postBtn');
+
     return <>
         <div className="TimeLinePage">
             <TitleBar/>
             <Write
                 readFeeds = {readFeeds}
                 setFeeds = {setFeeds}
-                writerFunc = {createFeed()}
+                // writerFunc = {createFeed(write[0],write[1])}
+                writerFunc={createFeed}
             />
             <div>
                 <TimeLine

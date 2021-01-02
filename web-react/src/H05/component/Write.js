@@ -1,12 +1,12 @@
 import React from "react";
 import './Write.css';
-import user from '../Img/user.png'
+import {createFeed} from '../page/TimeLinePage';
 
-function Message(){
-    let Writer = document.querySelector('#Writer');
-    let WriteContent = document.querySelector('#WriteContent');
+function Send(){
+    const writer = document.querySelector('#Writer').value;
+    const writeContent = document.querySelector('#WriteContent').value;
 
-    return [Writer, WriteContent];
+    return createFeed(writer,writeContent);
 }
 
 export function Write(props){
@@ -15,7 +15,7 @@ export function Write(props){
                 <input id = "Writer" type = "text" placeholder = "작성자"/>
             <p> </p>
             <textarea id = "WriteContent" placeholder = "내용"/>
-            <button>POST</button>
+            <button id="postBtn" onClick={Send}>POST</button>
         </div>
     </>
 }
