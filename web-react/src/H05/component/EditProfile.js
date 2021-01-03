@@ -1,20 +1,18 @@
 import React, {useState} from 'react';
 import './EditProfile.css';
 
-import {Info, Display} from './MyInfo'
-// import
 import profile from '../Img/profile.jpg'
 
 export function EditProfile(){
     const [state, setState] = useState("_hhyeoni");
 
     const displayID = e => {
+        setState(e.target.value);
         const {name, value} = e.target;
         setUser({
             ...user,
             [name]: value
         })
-        setState(e.target.value);
     };
 
     const [user, setUser] = useState({
@@ -27,17 +25,16 @@ export function EditProfile(){
     })
 
     const getValue = e => {
-        const getValue = e => {
-            const {name, value} = e.target;
-            setUser({
-                ...user,
-                [name]: value
-            })
-        }
+        const {name, value} = e.target;
+        setUser({
+            ...user,
+            [name]: value
+        })
     }
 
     const submitClick = e => {
         console.log("submit",user.userID);
+        console.log(user.userName,user.userID,user.userWeb,user.userInfo,user.userEmail,user.userPhone);
     }
 
     return<>
@@ -54,7 +51,7 @@ export function EditProfile(){
                     </tr>
                     <tr>
                         <td className="label">사용자 이름</td>
-                        <td><input id = "getID" type="text" placeholder="사용자 이름" name="userID" value={user.userID} onChange={displayID} onAnimationEnd={displayID}/></td>
+                        <td><input id = "getID" type="text" placeholder="사용자 이름" name="userID" value={user.userID} onChange={displayID}/></td>
                     </tr>
                     <tr>
                         <td className="label">웹사이트</td>
