@@ -3,14 +3,10 @@ import './MyInfo.css';
 
 import profile from '../Img/profile.jpg';
 import settings from '../Img/settings.png';
+import {Link} from "react-router-dom";
 
 export const Display = (props) => {
-    // console.log(props);
-    return <div>{props.name}</div>
-}
-
-export const Info = (props) => {
-    return props;
+    return <div>{props.ID}</div>
 }
 
 export function MyInfo(){
@@ -24,9 +20,8 @@ export function MyInfo(){
                     <td>
                         <div className = "MyProfileTxt">
                             <div id = "txt1">
-                                {/*<div id = "name">{state}</div>*/}
-                                <Display/>
-                                <button>프로필 편집</button>
+                                <Display ID="_hhyeoni"/>
+                                <Link to="/MyPage"><button>프로필 편집</button></Link>
                                 <img id = "settingIcon" src = {settings}/>
                             </div>
                             <div id = "txt2">

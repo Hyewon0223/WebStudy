@@ -22,7 +22,9 @@ export async function readFeeds(){
     const feedResult = await fetch('http://ec2-52-78-131-251.ap-northeast-2.compute.amazonaws.com/feed/',{
         method: 'get',
     });
-    return await feedResult.json();
+    const result = await feedResult.json();
+    console.log(result.reverse());
+    return result;
 }
 
 function TLPage(props){
@@ -31,7 +33,7 @@ function TLPage(props){
     useEffect(() => {
         const server = async() => {
             setFeeds(await readFeeds());
-            console.log(feeds);
+            // console.log(feeds.reverse());
         }
         server();
     }, []);

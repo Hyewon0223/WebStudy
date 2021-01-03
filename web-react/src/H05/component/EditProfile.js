@@ -9,6 +9,11 @@ export function EditProfile(){
     const [state, setState] = useState("_hhyeoni");
 
     const displayID = e => {
+        const {name, value} = e.target;
+        setUser({
+            ...user,
+            [name]: value
+        })
         setState(e.target.value);
     };
 
@@ -22,15 +27,16 @@ export function EditProfile(){
     })
 
     const getValue = e => {
-        const {name, value} = e.target;
-        setUser({
-            ...user,
-            [name]: value
-        })
+        const getValue = e => {
+            const {name, value} = e.target;
+            setUser({
+                ...user,
+                [name]: value
+            })
+        }
     }
 
     const submitClick = e => {
-        // props.submitMyInfo(user.userName, user.userID, user.userWeb, user.userInfo, user.userEmail, user.userPhone);
         console.log("submit",user.userID);
     }
 
@@ -48,7 +54,7 @@ export function EditProfile(){
                     </tr>
                     <tr>
                         <td className="label">사용자 이름</td>
-                        <td><input id = "getID" type="text" placeholder="사용자 이름" name="userID" value={user.userID} onChange={getValue}/></td>
+                        <td><input id = "getID" type="text" placeholder="사용자 이름" name="userID" value={user.userID} onChange={displayID} onAnimationEnd={displayID}/></td>
                     </tr>
                     <tr>
                         <td className="label">웹사이트</td>

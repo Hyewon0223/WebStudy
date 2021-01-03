@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {TitleBar} from '../component/TitleBar';
 import {Display, MyInfo} from '../component/MyInfo';
+import EditProfile from "../component/EditProfile";
 import {Board} from '../component/Board';
 import './MainPage.css';
 import {readFeeds} from "./TimeLinePage";

@@ -26,6 +26,7 @@ export function Write(props){
 
     const postClick = e => {
         props.writeFunc(user.writer, user.writeContent);
+        console.log("작성자 : ", user.writer, "/ 내용 : ", user.writeContent);
         setUser({
             writer: '',
             writeContent: ''
