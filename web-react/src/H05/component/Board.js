@@ -21,37 +21,41 @@ export function Board(){
             <div>
                 <p>2020</p>
                 <table className="Img2020">
-                    <tr>
-                        <td><img src = {img20209}/></td>
-                        <td><img src = {img20208}/></td>
-                        <td><img src = {img20207}/></td>
-                    </tr>
-                    <tr>
-                        <td><img src = {img20206}/></td>
-                        <td><img src = {img20205}/></td>
-                        <td><img src = {img20204}/></td>
-                    </tr>
-                    <tr>
-                        <td><img src = {img20203}/></td>
-                        <td><img src = {img20202}/></td>
-                        <td><img src = {img20201}/></td>
-                    </tr>
-                    <tr>
-                        <td><img src = {img20200}/></td>
-                    </tr>
+                    <tbody>
+                        <tr>
+                            <td><img src = {img20209}/></td>
+                            <td><img src = {img20208}/></td>
+                            <td><img src = {img20207}/></td>
+                        </tr>
+                        <tr>
+                            <td><img src = {img20206}/></td>
+                            <td><img src = {img20205}/></td>
+                            <td><img src = {img20204}/></td>
+                        </tr>
+                        <tr>
+                            <td><img src = {img20203}/></td>
+                            <td><img src = {img20202}/></td>
+                            <td><img src = {img20201}/></td>
+                        </tr>
+                        <tr>
+                            <td><img src = {img20200}/></td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
             <div>
                 <p>2019</p>
                 <table className="Img2019">
-                    <tr>
-                        <td><img src = {img20193}/></td>
-                        <td><img src = {img20192}/></td>
-                        <td><img src = {img20191}/></td>
-                    </tr>
-                    <tr>
-                        <td><img src = {img20190}/></td>
-                    </tr>
+                    <tbody>
+                        <tr>
+                            <td><img src = {img20193}/></td>
+                            <td><img src = {img20192}/></td>
+                            <td><img src = {img20191}/></td>
+                        </tr>
+                        <tr>
+                            <td><img src = {img20190}/></td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
         </div>

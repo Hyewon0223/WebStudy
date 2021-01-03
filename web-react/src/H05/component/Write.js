@@ -1,21 +1,44 @@
-import React from "react";
+import React, {useState, useEffect} from 'react';
 import './Write.css';
-import {createFeed} from '../page/TimeLinePage';
+import TLPage, {readFeeds} from "../page/TimeLinePage";
+import {Link} from "react-router-dom";
 
-function Send(){
-    const writer = document.querySelector('#Writer').value;
-    const writeContent = document.querySelector('#WriteContent').value;
-
-    return createFeed(writer,writeContent);
-}
+// function Send(){
+//     const writer = document.querySelector('#Writer').value;
+//     const writeContent = document.querySelector('#WriteContent').value;
+//
+//     return createFeed(writer,writeContent);
+// }
 
 export function Write(props){
+    const [user, setUser] = useState({
+        writer: '',
+        writeContent: '',
+    })
+
+    const getValue = e => {
+        const {name, value} = e.target;
+        setUser({
+            ...user,
+            [name]: value
+        })
+    }
+
+    const postClick = e => {
+        props.writeFunc(user.writer, user.writeContent);
+        setUser({
+            writer: '',
+            writeContent: ''
+        })
+    }
+
     return <>
         <div className = "WriteFeed">
-                <input id = "Writer" type = "text" placeholder = "작성자"/>
-            <p> </p>
-            <textarea id = "WriteContent" placeholder = "내용"/>
-            <button id="postBtn" onClick={Send}>POST</button>
+            <input id = "Writer" name="writer" type = "text" placeholder = "작성자" value={user.writer} onChange={getValue}/>
+            <div id = "space"> </div>
+            <textarea id = "WriteContent" name="writeContent" placeholder = "내용" value={user.writeContent} onChange={getValue}/>
+            <div id = "space"> </div>
+            <button id="postBtn" onClick={postClick}>POST</button>
         </div>
     </>
 }

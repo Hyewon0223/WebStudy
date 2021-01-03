@@ -1,16 +1,17 @@
 .WriteFeed{
     background : white;
-    margin: 15px;
+    margin: auto;
     padding : 10px;
+    width : 80%;
+    max-width : 800px;
 }
 
-img{
-    width : 30px;
-    height : 30px;
-
+#space{
+    height: 10px;
 }
 
-input{
+#Writer{
+    margin : auto;
     width : 300px;
     height : 30px;
     background : #f4f4f4;
@@ -31,6 +32,7 @@ button{
     width : 100px;
     height : 30px;
     margin-left : 5px;
+
     border : none;
     /*background : white;*/
 }

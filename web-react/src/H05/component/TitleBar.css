@@ -1,6 +1,6 @@
 #titleBar{
     height : 50px;
-
+    margin-bottom : 10px;
     background-color : #ffffff;
     flex : 1;
     position : relative;
@@ -9,6 +9,7 @@
     flex-direction : row;
     justify-content: space-between;
     border-bottom :  1px solid black;
+
 }
 
 #titleLogo{

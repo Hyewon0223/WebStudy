@@ -6,7 +6,6 @@ import {TitleBar} from '../component/TitleBar';
 import './TimeLinePage.css'
 
 export async function createFeed(name, body){
-    console.log("작성",name,body);
     const result = await fetch('http://ec2-52-78-131-251.ap-northeast-2.compute.amazonaws.com/feed/',{
         method: 'post',
         headers: {
@@ -17,7 +16,6 @@ export async function createFeed(name, body){
             owner: name,
         }),
     });
-    console.log(await result.json());
 }
 
 export async function readFeeds(){
@@ -33,11 +31,10 @@ function TLPage(props){
     useEffect(() => {
         const server = async() => {
             setFeeds(await readFeeds());
+            console.log(feeds);
         }
         server();
     }, []);
-
-    const postBtn = document.querySelector('#postBtn');
 
     return <>
         <div className="TimeLinePage">
@@ -45,8 +42,7 @@ function TLPage(props){
             <Write
                 readFeeds = {readFeeds}
                 setFeeds = {setFeeds}
-                // writerFunc = {createFeed(write[0],write[1])}
-                writerFunc={createFeed}
+                writeFunc = {createFeed}
             />
             <div>
                 <TimeLine
