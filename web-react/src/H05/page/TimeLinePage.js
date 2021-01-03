@@ -16,6 +16,7 @@ export async function createFeed(name, body){
             owner: name,
         }),
     });
+    window.location.reload(); //새로고침
 }
 
 export async function readFeeds(){
