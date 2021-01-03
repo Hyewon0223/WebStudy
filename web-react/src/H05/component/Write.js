@@ -39,7 +39,7 @@ export function Write(props){
             <div id = "space"> </div>
             <textarea id = "WriteContent" name="writeContent" placeholder = "내용" value={user.writeContent} onChange={getValue}/>
             <div id = "space"> </div>
-            <button id="postBtn" onClick={postClick}>POST</button>
+            <div id = "postBtnDiv"><button id="postBtn" onClick={postClick}>POST</button></div>
         </div>
     </>
 }

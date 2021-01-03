@@ -36,3 +36,9 @@ table textarea{
     justify-content: center;
 }
 
+#submit{
+    width : 100px;
+    height : 30px;
+    border : none;
+    border-radius : 5px;
+}
