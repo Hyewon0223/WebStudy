@@ -22,3 +22,11 @@ export async function readFeeds(){
     console.log(result.reverse());
     return result;
 }
+
+//이런 식으로 하면 프론트 개발시 좋음
+// export async function readInfo(){
+//     return{
+//         name : '최혜원',
+//         id : "_hhyeoni",
+//     }
+// }
