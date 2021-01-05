@@ -9,7 +9,7 @@ class Test extends Component{
 
     componentDidMount(){
         const cityName = 'Seoul';
-        const apiKey = MyApi;
+        const apiKey =  process.env.REACT_APP_OPENWEATHER_KEY;
         const url = `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}`;
 
         axios.get(url).then(responseData => {
