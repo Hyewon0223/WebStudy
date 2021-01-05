@@ -4,15 +4,25 @@ import axios from 'axios';
 class Test extends Component{
     constructor(props) {
         super(props);
-        this.state = {temp:0, desc:'', icon:'', loading: true}
+        this.state = {value:'Seoul' ,temp:0, desc:'', icon:'', loading: true}
+        this.handleChange = this.handleChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+    }
+    handleChange(event) {
+        this.setState({value: event.target.value});
+        console.log(this.state.value);
+    }
+
+    handleSubmit(event) {
+        alert('The country you chose...' + this.state.value);
+        event.preventDefault();
     }
 
     componentDidMount(){
-        const cityName = 'Seoul';
         const apiKey =  process.env.REACT_APP_OPENWEATHER_KEY;
-        const url = `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}`;
+        const URL = `http://api.openweathermap.org/data/2.5/weather?q=${this.state.value}&appid=${apiKey}`;
 
-        axios.get(url).then(responseData => {
+        axios.get(URL).then(responseData => {
             console.log(responseData.data);
             const data = responseData.data;
             this.setState({
@@ -33,6 +43,14 @@ class Test extends Component{
         else{
             return<>
                 <div className = "App">
+                    {/*<select value = {this.state.value}>*/}
+                    <select value={this.state.value} onChange={this.handleChange}>
+                        <option value="Seoul">서울</option>
+                        <option value="Newyork">뉴욕</option>
+                        <option value="Sydney">시드니</option>
+                        <option value="Paris">파리</option>
+                    </select>
+                    <button onClick = {this.handleSubmit}>확인</button>
                     <img src = {imgSrc}/>
                     <p>{this.state.temp}</p>
                     <p>{this.state.desc}</p>
