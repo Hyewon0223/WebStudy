@@ -1,29 +1,49 @@
 import React, {useState, useEffect} from 'react';
 import axios from "axios";
+import './Main.css'
 
 export function Main(props){
     const [select, setSelect] = useState({
         value : 'Seoul',
     })
+
     const getValue = e => {
+        const {name, value} = e.target;
         setSelect({
-            value : e.target.value
+            ...select,
+            [name]: value
         })
-    }
+    };
+
+    const [weather, setWeather] = useState({
+        loc : 'Seoul',
+        country : 'KR',
+        temp:0,
+        temp_max:0,
+        temp_min:0,
+        desc:'',
+        icon:'',
+    });
+
     const searchClick = e => {
-        console.log("search", select.value);
-        console.log('connect');
         const apiKey = process.env.REACT_APP_OPENWEATHER_KEY;
         const URL = `http://api.openweathermap.org/data/2.5/weather?q=${select.value}&appid=${apiKey}`;
 
+
         axios.get(URL).then(result => {
             result = result.data
-            console.log(result);
+            console.log(select.value,result);
+
             setWeather({
-                temp:result.main.temp,
-                desc:result.weather[0].description,
-                icon:result.weather[0].icon,
+                loc: result.name,
+                country : result.sys.country,
+                temp: Math.round(result.main.temp- 273.15),
+                temp_max: Math.round(result.main.temp_max-273.15),
+                temp_min: Math.round(result.main.temp_min-273.15),
+                desc: result.weather[0].description,
+                icon: `http://openweathermap.com/img/w/${result.weather[0].icon}.png`,
             })
+
         })
     }
 
@@ -31,25 +51,30 @@ export function Main(props){
         searchClick();
     }, []);
 
-    const [weather, setWeather] = useState({
-        temp:0,
-        desc:'',
-        icon:'',
-    });
-
-
     return <>
-        <select value={select.value} onChange={getValue}>
-            <option value="Seoul">서울</option>
-            <option value="New York">뉴욕</option>
-            <option value="Sydney">시드니</option>
-            <option value="Paris">파리</option>
-        </select>
-        <button onClick = {searchClick}>확인</button>
+        <div className = "Search">
+            <input id = "weatherSearch" type = "text" placeholder="지역을 입력하세요" name="value" value = {select.value==null?"":select.value} onChange={getValue}/>
+            <button onClick = {searchClick}>확인</button>
+        </div>
 
-        <div>temp : {weather.temp}</div>
-        <div>desc : {weather.desc}</div>
-        <div>icon : {weather.icon}</div>
+        <div className = "Mac">
+            <div className = "TerminalBar">
+                <div id = "Circle">
+                    <div id="circle1"> </div>
+                    <div id="circle2"> </div>
+                    <div id="circle3"> </div>
+                </div>
+                <div id="title">How's the weather?</div>
+                <div></div>
+            </div>
+
+            <div className = "DisplayWeather">
+                <div id = "loc">{weather.loc}, {weather.country}</div>
+                <div id = "icon"><img src={weather.icon}/></div>
+                <div id = "desc">{weather.desc}</div>
+                <div id = "temp">{weather.temp}℃</div>
+            </div>
+        </div>
     </>
 }
 
