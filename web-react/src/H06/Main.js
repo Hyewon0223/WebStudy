@@ -11,7 +11,7 @@ export function Main(props){
         const {name, value} = e.target;
         setSelect({
             ...select,
-            [name]: value
+            [name]: value,
         })
     };
 
@@ -19,16 +19,17 @@ export function Main(props){
         loc : 'Seoul',
         country : 'KR',
         temp:0,
-        temp_max:0,
-        temp_min:0,
         desc:'',
         icon:'',
     });
 
+    const PressEnter = e => {
+        if (e.key === 'Enter') searchClick();
+    }
+
     const searchClick = e => {
         const apiKey = process.env.REACT_APP_OPENWEATHER_KEY;
         const URL = `http://api.openweathermap.org/data/2.5/weather?q=${select.value}&appid=${apiKey}`;
-
 
         axios.get(URL).then(result => {
             result = result.data
@@ -38,12 +39,9 @@ export function Main(props){
                 loc: result.name,
                 country : result.sys.country,
                 temp: Math.round(result.main.temp- 273.15),
-                temp_max: Math.round(result.main.temp_max-273.15),
-                temp_min: Math.round(result.main.temp_min-273.15),
                 desc: result.weather[0].description,
                 icon: `http://openweathermap.com/img/w/${result.weather[0].icon}.png`,
             })
-
         })
     }
 
@@ -53,8 +51,8 @@ export function Main(props){
 
     return <>
         <div className = "Search">
-            <input id = "weatherSearch" type = "text" placeholder="지역을 입력하세요" name="value" value = {select.value==null?"":select.value} onChange={getValue}/>
-            <button onClick = {searchClick}>확인</button>
+            <input id = "weatherSearch" type = "text" placeholder="지역을 입력하세요" name="value" value = {select.value==null?"":select.value} onChange={getValue} onKeyPress={PressEnter}/>
+            <button id="searchBtn" onClick={searchClick}/>
         </div>
 
         <div className = "Mac">
