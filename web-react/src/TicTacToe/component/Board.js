@@ -3,8 +3,7 @@ import './Board.css';
 
 const value = [0,0,0,0,0,0,0,0,0];
 
-export const Board = () => {
-
+export const Board = (props) => {
     const [user, setUser] = useState({
         player : 'X',
         count : 0,
@@ -37,25 +36,29 @@ export const Board = () => {
         return value;
     }
 
+    const DisplayUser = (props) => {
+        if (value[props]===1) return 'X';
+        else if (value[props]===2) return 'O';
+    }
     return <>
         <div>
             <table>
                 <tbody>
-                    <tr>
-                        <td><button className="block" onClick={() => {btnClick(0)}}> </button></td>
-                        <td><button className="block" onClick={() => {btnClick(1)}}> </button></td>
-                        <td><button className="block" onClick={() => {btnClick(2)}}> </button></td>
-                    </tr>
-                    <tr>
-                        <td><button className="block" onClick={() => {btnClick(3)}}> </button></td>
-                        <td><button className="block" onClick={() => {btnClick(4)}}> </button></td>
-                        <td><button className="block" onClick={() => {btnClick(5)}}> </button></td>
-                    </tr>
-                    <tr>
-                        <td><button className="block" onClick={() => {btnClick(6)}}> </button></td>
-                        <td><button className="block" onClick={() => {btnClick(7)}}> </button></td>
-                        <td><button className="block" onClick={() => {btnClick(8)}}> </button></td>
-                    </tr>
+                <tr>
+                    <td><button className="block" onClick={() => {btnClick(0)}}>{value[0]===0? '': value[0]===1? 'X':'O'}</button></td>
+                    <td><button className="block" onClick={() => {btnClick(1)}}>{value[1]===0? '': value[1]===1? 'X':'O'}</button></td>
+                    <td><button className="block" onClick={() => {btnClick(2)}}>{value[2]===0? '': value[2]===1? 'X':'O'}</button></td>
+                </tr>
+                <tr>
+                    <td><button className="block" onClick={() => {btnClick(3)}}>{value[3]===0? '': value[3]===1? 'X':'O'}</button></td>
+                    <td><button className="block" onClick={() => {btnClick(4)}}>{value[4]===0? '': value[4]===1? 'X':'O'}</button></td>
+                    <td><button className="block" onClick={() => {btnClick(5)}}>{value[5]===0? '': value[5]===1? 'X':'O'}</button></td>
+                </tr>
+                <tr>
+                    <td><button className="block" onClick={() => {btnClick(6)}}>{value[6]===0? '': value[6]===1? 'X':'O'}</button></td>
+                    <td><button className="block" onClick={() => {btnClick(7)}}>{value[7]===0? '': value[7]===1? 'X':'O'}</button></td>
+                    <td><button className="block" onClick={() => {btnClick(8)}}>{value[8]===0? '': value[8]===1? 'X':'O'}</button></td>
+                </tr>
                 </tbody>
             </table>
         </div>
