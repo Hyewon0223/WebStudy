@@ -7,7 +7,8 @@ const choose_X = [0,0,0,0,0,0,0,0,0];
 const choose_O = [0,0,0,0,0,0,0,0,0];
 
 export const Board = (props) => {
-    let result = "";
+    let result = '';
+
     const [user, setUser] = useState({
         player : 'X',
         count : 0,
@@ -18,28 +19,35 @@ export const Board = (props) => {
             console.log("어떤 칸을 눌렀나요?");
             // user X = 1, user O = 2를 부여
             if (user.count % 2 === 0){
-                setUser({
-                    player : 'O',
-                    count : user.count+1,
-                })
                 value[idx] = 1;
                 choose_X[idx] = 1;
+
                 result = Condition(user.count, choose_X);
-                console.log(user.player,result);
-            }
-            else{
+                if (result === '승리') result = `축하합니다! ${user.player}가 승리했습니다!`;
+                else if (result === '무승부') result = "무승부입니다...아쉽네요...!";
+                else result = 'O'
+
                 setUser({
-                    player : 'X',
+                    player : result,
                     count : user.count+1,
                 })
+            }
+
+            else{
                 value[idx] = 2;
                 choose_O[idx] = 1;
+
                 result = Condition(user.count, choose_O);
-                console.log(user.player, result);
+                if (result === '승리') result = `축하합니다! ${user.player}가 승리했습니다!`
+                else if (result === '무승부') result = "무승부입니다...아쉽네요...!";
+                else result = 'X'
+
+                setUser({
+                    player : result,
+                    count : user.count+1,
+                })
             }
-            // console.log(user.count, "번째: ", user.player,"가 ", idx, "번째 칸을 눌렀습니다!ㅎㅎ");
-            // console.log(value);
-            // console.log(choose_X, choose_O);
+            console.log(user.count, "번째: ", user.player,"가 ", idx, "번째 칸을 눌렀습니다!");
         }
         else{
             console.log(idx,"번째 칸은 이미 누르셨습니다ㅜ-ㅜ");
@@ -48,6 +56,7 @@ export const Board = (props) => {
     }
 
     return <>
+        <div>{user.player}</div>
         <div>
             <table>
                 <tbody>
