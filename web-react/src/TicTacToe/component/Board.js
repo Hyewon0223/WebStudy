@@ -68,6 +68,11 @@ export const Board = (props) => {
             }
             else{
                 console.log(idx,"번째 칸은 이미 누르셨습니다ㅜ-ㅜ");
+                setUser({
+                    player : '이미 누르셨습니다ㅜ-ㅜ',
+                    count : user.count,
+                    gameover : finish,
+                })
             }
             return value;
         }
@@ -79,7 +84,6 @@ export const Board = (props) => {
     }
 
     const btnReset = () => {
-        alert("reset");
         console.log("reset");
         for (let i=0;i<9;i++){
             value[i] = 0;
