@@ -1,0 +1,33 @@
+#basic{
+    margin : 0;
+    width : 100vm;
+    height : 100vh;
+    background : #f5f5f5;
+}
+
+
+#Box{
+    margin-left : auto;
+    margin-right : auto;
+
+    width : 400px;
+    background : white;
+    margin-bottom : 20px;
+
+    border-radius : 5px 5px 5px 5px;
+
+}
+
+#ask{
+    display: flex;
+    justify-content: center;
+}
+
+#qq{
+    margin-top : 10px;
+    margin-bottom : 10px;
+}
+
+#aa{
+    margin-top : 10px;
+}

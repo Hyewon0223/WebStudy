@@ -9,7 +9,7 @@ const H05 = () => {
     return (
         <Router>
             <div>
-                <Route exact path='/' component={MainPage}/>
+                <Route exact path='/MainPage' component={MainPage}/>
                 <Route path='/TimeLine' component={TLPage}/>
                 <Route path='/MyPage' component={MyPage}/>
             </div>
