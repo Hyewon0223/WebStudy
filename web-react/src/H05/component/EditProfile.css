@@ -26,6 +26,11 @@ table input{
     border-radius : 5px 5px 5px 5px;
 }
 
+#nameInput{
+    width : 140px;
+    margin-right : 10px;
+}
+
 table textarea{
     width : 300px;
     height : 100px;

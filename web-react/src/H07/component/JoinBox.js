@@ -29,12 +29,6 @@ export const JoinBox = () => {
     const JoinClick = async() => {
         const join = await JoinAPI(username, email, password, lastName, firstName);
         console.log(join);
-        // if(token.non_field_errors){
-        //     alert(token.non_field_errors.join(', '));
-        // }
-        // else{
-        //     console.log(token);
-        // }
     }
 
     return <>
