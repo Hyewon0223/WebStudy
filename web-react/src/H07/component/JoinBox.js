@@ -1,34 +1,21 @@
 import React, {useState} from 'react';
 import logo from '../img/logo.png'
 import './JoinBox.css';
+import {useHistory} from "react-router";
+import {JoinAPI} from "./API";
 
 export const JoinBox = () => {
+    const history = useHistory();
     const [username, setUsername] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [lastName, setLastName] = useState('');
     const [firstName, setFirstName] = useState('');
 
-    const JoinAPI = async (id,em,pw,ln,fn) => {
-        const result = await fetch('http://ec2-52-78-131-251.ap-northeast-2.compute.amazonaws.com/user/', {
-            method: 'post',
-            headers: {
-                'Content-Type':'application/json',
-            },
-            body: JSON.stringify({
-                username: id,
-                email: em,
-                password: pw,
-                last_name: ln,
-                first_name: fn,
-            }),
-        });
-        return await result.json();
-    }
-
     const JoinClick = async() => {
         const join = await JoinAPI(username, email, password, lastName, firstName);
         console.log(join);
+        history.push('/');
     }
 
     return <>

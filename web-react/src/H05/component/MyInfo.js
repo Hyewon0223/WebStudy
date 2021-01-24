@@ -1,9 +1,9 @@
 import React, {useState,useEffect} from "react";
-import './MyInfo.css';
+import {Link} from "react-router-dom";
 
+import './MyInfo.css';
 import profile from '../Img/profile.jpg';
 import settings from '../Img/settings.png';
-import {Link} from "react-router-dom";
 
 export const Display = (props) => {
     return <div>{props.ID}</div>
@@ -17,37 +17,24 @@ export function MyInfo(){
         first_name: '',
     });
 
-    const getUserInfo = async () => {
-        const result = await fetch('http://ec2-52-78-131-251.ap-northeast-2.compute.amazonaws.com/user/',{
+    const DisplayUserInfo = async() => {
+        const idx = window.localStorage.getItem('id');
+        const result = await fetch('http://ec2-52-78-131-251.ap-northeast-2.compute.amazonaws.com/user/'+idx,{
             method: 'get',
         });
         const data = await result.json();
         console.log(data);
-        let URL = '';
-        for (let i=0;i<data.length;i++){
-            if (localStorage.key(0) === data[i].username){
-                URL = 'http://ec2-52-78-131-251.ap-northeast-2.compute.amazonaws.com/user/'+(i+1);
-                console.log(URL);
-                break;
-            }
-        }
 
-        const info = await fetch(URL,{
-            method: 'get',
-        });
-        const infoData = await info.json();
-        // console.log(infoData);
         setUser({
-            username: infoData["username"],
-            email: infoData["email"],
-            last_name: infoData["last_name"],
-            first_name: infoData["first_name"],
+            username: data["username"],
+            email: data["email"],
+            last_name: data["last_name"],
+            first_name: data["first_name"],
         })
-        return infoData;
     }
 
     useEffect(() => {
-        getUserInfo().then(r => console.log(r));
+        DisplayUserInfo();
     }, []);
 
     return<>

@@ -1,46 +1,9 @@
 import React, {useState, useEffect} from 'react';
+import  { useHistory} from 'react-router';
 import './EditProfile.css';
-
 import profile from '../Img/profile.jpg'
 
 export function EditProfile(){
-    const getUserInfo = async () => {
-        const result = await fetch('http://ec2-52-78-131-251.ap-northeast-2.compute.amazonaws.com/user/',{
-            method: 'get',
-        });
-        const data = await result.json();
-        console.log(data);
-        let URL = '';
-        for (let i=0;i<data.length;i++){
-            if (localStorage.key(0) === data[i].username){
-                URL = 'http://ec2-52-78-131-251.ap-northeast-2.compute.amazonaws.com/user/'+(i+1);
-                console.log(URL);
-                break;
-            }
-        }
-
-        const info = await fetch(URL,{
-            method: 'get',
-        });
-        const infoData = await info.json();
-        console.log(infoData);
-        return infoData;
-    }
-    useEffect(() => {
-        getUserInfo().then(res => console.log(res));
-    }, []);
-
-    const [state, setState] = useState("_hhyeoni");
-
-    const displayID = e => {
-        setState(e.target.value);
-        const {name, value} = e.target;
-        setUser({
-            ...user,
-            [name]: value
-        })
-    };
-
     const [user, setUser] = useState({
         userLastName : '',
         userFirstName : '',
@@ -51,6 +14,46 @@ export function EditProfile(){
         userEmail: '',
         userPhone: '',
     })
+
+    const [state, setState] = useState('');
+
+    const SetUserInfo = async() => {
+        const idx = window.localStorage.getItem('id');
+        const result = await fetch('http://ec2-52-78-131-251.ap-northeast-2.compute.amazonaws.com/user/'+idx,{
+            method: 'get',
+        });
+        const data = await result.json();
+        console.log(data);
+
+        setUser({
+            userLastName : data["last_name"],
+            userFirstName : data["first_name"],
+            userID: data["username"],
+            userPassword: '',
+            userWeb: '',
+            userInfo: '',
+            userEmail: data["email"],
+            userPhone: '',
+        })
+
+        setState(data["username"]);
+    }
+
+    useEffect(() => {
+        SetUserInfo();
+    }, []);
+
+
+    const displayID = e => {
+        setState(e.target.value);
+        const {name, value} = e.target;
+        setUser({
+            ...user,
+            [name]: value
+        })
+
+    };
+
     const getValue = e => {
         const {name, value} = e.target;
         setUser({
@@ -59,36 +62,38 @@ export function EditProfile(){
         })
     }
 
+    const SubmitClick = async() => {
+        console.log(user.userID, user.userEmail, user.userPassword, user.userLastName, user.userFirstName);
+        const idx = window.localStorage.getItem('id');
+        const result = await fetch('http://ec2-52-78-131-251.ap-northeast-2.compute.amazonaws.com/user/'+idx, {
+            method: 'put',
+            headers: {
+                'Content-Type':'application/json',
+            },
+            body: JSON.stringify({
+                username: user.userID,
+                email: user.userEmail,
+                password: user.userPassword,
+                last_name: user.userLastName,
+                first_name: user.userFirstName,
+            }),
+        })
 
-    const DeleteUser = async () => {
-        // const URL = findUser();
-        console.log(URL);
-        // const info = await fetch(URL,{
-        //     method: 'delete',
-        // });
-        // const infoData = await info.json();
-        // // console.log(infoData);
-        // setUser({
-        //     username: infoData["username"],
-        //     email: infoData["email"],
-        //     last_name: infoData["last_name"],
-        //     first_name: infoData["first_name"],
-        // })
-        // return infoData;
+        console.log("submit",await result);
+        // alert("수정되었습니다");
     }
 
+    const history = useHistory();
 
-
-    const submitClick = e => {
-        console.log("submit",user.userID);
-        console.log(user.userName,user.userID,user.userWeb,user.userInfo,user.userEmail,user.userPhone);
+    const DeleteClick = async() => {
+        alert("탈퇴하시겠습니까?");
+        const idx = window.localStorage.getItem('id');
+        await fetch('http://ec2-52-78-131-251.ap-northeast-2.compute.amazonaws.com/user/'+idx,{
+            method: 'delete',
+        });
+        console.log('delete',user.userID);
+        history.push('/')
     }
-
-    const deleteClick = e => {
-
-    }
-
-
 
     return<>
         <div className="Edit">
@@ -109,7 +114,7 @@ export function EditProfile(){
                     </tr>
                     <tr>
                         <td className="label">비밀번호</td>
-                        <td><input type="password" placeholder="비밀번호" name="userPassword" value={user.userPassword} onChange={displayID}/></td>
+                        <td><input type="password" placeholder="비밀번호" name="userPassword" value={user.userPassword} onChange={getValue}/></td>
                     </tr>
                     <tr>
                         <td className="label">웹사이트</td>
@@ -121,7 +126,7 @@ export function EditProfile(){
                     </tr>
                     <tr>
                         <td className="label">이메일</td>
-                        <td><input type="text" placeholder="이메일" name="userEmail" value={user.userEmail} onChange={getValue}/></td>
+                        <td><input type="email" placeholder="이메일" name="userEmail" value={user.userEmail} onChange={getValue}/></td>
                     </tr>
                     <tr>
                         <td className="label">전화번호</td>
@@ -131,10 +136,12 @@ export function EditProfile(){
             </table>
         </div>
         <div id = "submitDiv">
-            <button id = "submit" onClick={submitClick}>제출</button>
-            <button id = "submit" onClick={deleteClick}>탈퇴</button>
+            <button id = "submit" onClick={SubmitClick}>제출</button>
+            <button id = "submit" onClick={DeleteClick}>탈퇴</button>
         </div>
     </>
 }
 
 export default EditProfile;
+
+

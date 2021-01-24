@@ -3,7 +3,7 @@ import logo from "../img/logo.png";
 import  { useHistory} from 'react-router';
 import {Link, Route} from "react-router-dom";
 import MainPage from "../../H05/page/MainPage";
-import {createToken} from './API';
+import {createToken, getUserInfo} from './API';
 import './LogInBox.css'
 
 export const LogInBox = () => {
@@ -21,12 +21,9 @@ export const LogInBox = () => {
         else{
             console.log(token);
             window.localStorage.setItem(username, JSON.stringify(token));
-            // const getUserInfo = window.localStorage.getItem(username);
-            // console.log(JSON.parse(getUserInfo));
 
-            // const Users = getUsers();
-            // console.log(Users)
-            history.push('/MainPage')
+            await getUserInfo();
+            history.push('/MainPage');
         }
     }
 
