@@ -1,5 +1,5 @@
 ## [H07] Join&Login
-### React를 이용한 <b>Join & Login</b> 미니 게임  
+### React를 이용한 <b>Join & Login</b> 미니 게임
 ---  
 
 # Join&Login

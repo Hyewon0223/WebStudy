@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c06288f1-e5bb-4a97-91ac-dfee3d6a78d8" name="Default Changelist" comment="[TicTacToe]Display &amp; Condition">
-      <change beforePath="$PROJECT_DIR$/web-react/src/H05/Img/MainPage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H05/Img/MyPage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H05/Img/TimeLinePage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H05/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/web-react/src/H05/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +63,7 @@
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H03" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\TicTacToe" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H05" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H03\img" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H03" />
@@ -107,7 +105,7 @@
       <workItem from="1610898939017" duration="1060000" />
       <workItem from="1610977879420" duration="2787000" />
       <workItem from="1611151151115" duration="4292000" />
-      <workItem from="1611233530892" duration="7305000" />
+      <workItem from="1611233530892" duration="8055000" />
     </task>
     <task id="LOCAL-00001" summary="[H03_ReviewPage]Complete">
       <created>1606073241471</created>
@@ -389,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611518113563</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="[TicTacToe]Update REMADME">
+      <created>1611518202214</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1611518202214</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,7 +414,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[H06_Weather]OpenWeather API" />
     <MESSAGE value="API KEY" />
     <MESSAGE value="[H06_Weather_test]Select Country" />
     <MESSAGE value="[H06_Weather]component" />
@@ -434,6 +438,7 @@
     <MESSAGE value="[TicTacToe]README" />
     <MESSAGE value="[H07_Join&amp;Login]Delete &amp; getUserInfo" />
     <MESSAGE value="[H05_TimeLine]Update REMADME" />
-    <option name="LAST_COMMIT_MESSAGE" value="[H05_TimeLine]Update REMADME" />
+    <MESSAGE value="[TicTacToe]Update REMADME" />
+    <option name="LAST_COMMIT_MESSAGE" value="[TicTacToe]Update REMADME" />
   </component>
 </project>
