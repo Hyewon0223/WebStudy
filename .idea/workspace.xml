@@ -44,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web-react/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web-react/src/H07" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -56,13 +56,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H07" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\TicTacToe" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H06" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H05" />
-      <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H03" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H07" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\TicTacToe" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H05" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H03\img" />
@@ -106,6 +107,8 @@
       <workItem from="1610977879420" duration="2787000" />
       <workItem from="1611151151115" duration="4292000" />
       <workItem from="1611233530892" duration="8055000" />
+      <workItem from="1611658182013" duration="310000" />
+      <workItem from="1611743333035" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="[H03_ReviewPage]Complete">
       <created>1606073241471</created>
@@ -394,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611518202214</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="[H07_Join&amp;Login]README">
+      <created>1611658358305</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1611658358305</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +424,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="API KEY" />
     <MESSAGE value="[H06_Weather_test]Select Country" />
     <MESSAGE value="[H06_Weather]component" />
     <MESSAGE value="[H06_Weather]Weather Data" />
@@ -439,6 +448,7 @@
     <MESSAGE value="[H07_Join&amp;Login]Delete &amp; getUserInfo" />
     <MESSAGE value="[H05_TimeLine]Update REMADME" />
     <MESSAGE value="[TicTacToe]Update REMADME" />
-    <option name="LAST_COMMIT_MESSAGE" value="[TicTacToe]Update REMADME" />
+    <MESSAGE value="[H07_Join&amp;Login]README" />
+    <option name="LAST_COMMIT_MESSAGE" value="[H07_Join&amp;Login]README" />
   </component>
 </project>
