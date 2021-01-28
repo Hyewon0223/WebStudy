@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c06288f1-e5bb-4a97-91ac-dfee3d6a78d8" name="Default Changelist" comment="[TicTacToe]Display &amp; Condition">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-01-27__9_37__Default_Changelist_.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c06288f1-e5bb-4a97-91ac-dfee3d6a78d8" name="Default Changelist" comment="[H08_Commit]basic" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -404,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611658358305</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="[H08_Commit]basic">
+      <created>1611751410075</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1611751410075</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +429,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[H06_Weather_test]Select Country" />
     <MESSAGE value="[H06_Weather]component" />
     <MESSAGE value="[H06_Weather]Weather Data" />
     <MESSAGE value="[H06_Weather]reset" />
@@ -449,6 +453,7 @@
     <MESSAGE value="[H05_TimeLine]Update REMADME" />
     <MESSAGE value="[TicTacToe]Update REMADME" />
     <MESSAGE value="[H07_Join&amp;Login]README" />
-    <option name="LAST_COMMIT_MESSAGE" value="[H07_Join&amp;Login]README" />
+    <MESSAGE value="[H08_Commit]basic" />
+    <option name="LAST_COMMIT_MESSAGE" value="[H08_Commit]basic" />
   </component>
 </project>
