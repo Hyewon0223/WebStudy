@@ -26,7 +26,7 @@ table input{
     border-radius : 5px 5px 5px 5px;
 }
 
-#nameInput{
+.nameInput{
     width : 140px;
     margin-right : 10px;
 }

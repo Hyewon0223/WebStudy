@@ -108,11 +108,18 @@ export async function getUserInfo(){
             window.localStorage.setItem('id', JSON.stringify(URL_idx));
 
             find_state = true;
+
+            const name = window.localStorage.getItem(userName).split("\"")
+            const token = "Token" + " " + name[3];
+            window.localStorage.setItem('Token', token);
+
             return URL_idx;
         }
         else{
             URL_idx++;
         }
+
     }
+
     return false;
 }

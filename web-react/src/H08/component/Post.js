@@ -1,9 +1,11 @@
 import React, {useState, useEffect} from 'react';
 import './Post.css';
 
-export const Post = () => {
+export const Post = (props) => {
+
+
     return <>
-        <div>Post</div>
+        <div></div>
     </>
 }
 

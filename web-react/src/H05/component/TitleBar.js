@@ -16,7 +16,7 @@ export function TitleBar(){
             <input id = "search" type = "text" placeholder = "검색"/>
             <div id = "menuIcon">
                 <Link to="/MainPage"><img className="Icon" src={home}/></Link>
-                <Link to="/TimeLine"><img className="Icon" src={send}/></Link>
+                <Link to="/TimeLinePage"><img className="Icon" src={send}/></Link>
                 <img className="Icon" src={compass}/>
                 <img className="Icon" src={heart}/>
                 <Link to="/MyPage"><img className="profileIcon" src={profile}/></Link>

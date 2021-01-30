@@ -105,8 +105,8 @@ export function EditProfile(){
                     </tr>
                     <tr>
                         <td className="label">이름</td>
-                        <td><input id = "nameInput" type="text" placeholder="성" name="userLastName" value={user.userLastName} onChange={getValue}/>
-                        <input id="nameInput" type="text" placeholder="이름" name="userFirstName" value={user.userFirstName} onChange={getValue}/></td>
+                        <td><input className= "nameInput" type="text" placeholder="성" name="userLastName" value={user.userLastName} onChange={getValue}/>
+                        <input className="nameInput" type="text" placeholder="이름" name="userFirstName" value={user.userFirstName} onChange={getValue}/></td>
                     </tr>
                     <tr>
                         <td className="label">사용자 이름</td>
