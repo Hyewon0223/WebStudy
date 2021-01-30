@@ -4,5 +4,5 @@
 ### 실행 화면
 #### > 기본 화면
 <img src="img/TimeLine01.png" width="40%" title="실행1" alt="TimeLine01"></img>
-#### > POST 구현
+#### > POST 구현, GET 
 <img src="img/TimeLine02.png" width="40%" title="실행2" alt="TimeLine02"></img>
