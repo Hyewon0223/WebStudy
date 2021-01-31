@@ -58,3 +58,37 @@ export async function createComment(id, content){
         }),
     });
 }
+
+export async function deletePostAPI(id){
+    const token = window.localStorage.getItem('Token');
+
+    await fetch('https://react-js-sample-api.kmuwink.net/feed/'+id,{
+        method: 'delete',
+        headers: {
+            'Authorization':token,
+        },
+    });
+}
+
+export async function cmtDelAPI(PostID,CmtID){
+    const token = window.localStorage.getItem('Token');
+    await fetch(`https://react-js-sample-api.kmuwink.net/feed/${PostID}/comment/${CmtID}`,{
+        method: 'delete',
+        headers: {
+            'Authorization':token,
+        },
+    });
+}
+
+export async function cmtEditAPI(PostID,CmtID, content){
+    const token = window.localStorage.getItem('Token');
+    await fetch(`https://react-js-sample-api.kmuwink.net/feed/${PostID}/comment/${CmtID}`,{
+        method: 'put',
+        headers: {
+            'Authorization':token,
+        },
+        body: JSON.stringify({
+            content: content,
+        }),
+    });
+}

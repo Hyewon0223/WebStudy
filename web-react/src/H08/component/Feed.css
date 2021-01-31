@@ -7,7 +7,6 @@
     width : 80%;
     max-width : 800px;
 }
-
 .feedUser{
     height : 50px;
     flex-direction : row;
@@ -16,6 +15,12 @@
     display: flex;
     align-items: center;
     border-bottom : 1px solid black;
+    justify-content: space-between;
+}
+
+#left{
+    display : flex;
+    justify-content: center;
 }
 
 #userIcon{
@@ -28,6 +33,24 @@
     font-size : 16px;
     font-weight : bold;
     margin-left : 15px;
+}
+
+#expand{
+    width : 25px;
+    height : 25px;
+    margin-right : 10px;
+}
+
+#xButton{
+    width : 25px;
+    height : 25px;
+    margin-right : 20px;
+}
+
+#edit{
+    width : 25px;
+    height : 25px;
+    margin-right: 10px;
 }
 
 .feedContent{

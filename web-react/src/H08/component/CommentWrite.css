@@ -1,12 +1,10 @@
 .WriteComment{
-    margin-top : 10px;
     display : flex;
     /*justify-content: space-between;*/
 }
 
 #WriteComment{
     float : bottom;
-
     display: flex;
     margin : auto;
     width : 250px;

@@ -9,7 +9,6 @@ import CommentWrite from "../component/CommentWrite";
 
 export const PostPage = (props) => {
     const id = props.match.params.id;
-    console.log(id)
     const [comments, setComments] = useState([]);
     useEffect(() => {
         const server = async() => {
@@ -19,26 +18,32 @@ export const PostPage = (props) => {
     }, []);
 
     return <>
-        <table className="PostPage">
-            <tbody>
+        <div id = "basic">
+            <TitleBar/>
+            <table className="PostPage">
+                <tbody>
                 <tr>
-                    <td id = "post"><Post id={id}/></td>
+                    <td id = "post"><Post id={props.match.params.id}/></td>
                     <td id = "comment">
                         <div id="list">
-                            <CommentList
-                            readComments = {readComments}
-                            setComments = {setComments}
-                            comments = {comments}
+                            <CommentList PostID={props.match.params.id}
+                                readComments = {readComments}
+                                setComments = {setComments}
+                                comments = {comments}
                             />
                         </div>
-
-                        <CommentWrite
-                            writeCmtFunc = {createComment}
-                        />
+                        <div id="cmtWrite">
+                            <div id = "space2"/>
+                            <CommentWrite
+                                writeCmtFunc = {createComment}
+                            />
+                            <div id = "space2"/>
+                        </div>
                     </td>
                 </tr>
-            </tbody>
-        </table>
+                </tbody>
+            </table>
+        </div>
     </>;
 }
 

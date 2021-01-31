@@ -12,8 +12,16 @@
 }
 
 #list{
-    height : 550px;
+    height : 560px;
     overflow : auto;
     border-bottom : 1px solid black;
+    background : white;
+}
 
+#cmtWrite{
+    background : white;
+}
+
+#space2{
+    height : 5px;
 }

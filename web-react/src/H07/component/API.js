@@ -106,6 +106,7 @@ export async function getUserInfo(){
         if (infoData["username"]===userName) {
             console.log(infoData);
             window.localStorage.setItem('id', JSON.stringify(URL_idx));
+            window.localStorage.setItem('username', userName);
 
             find_state = true;
 

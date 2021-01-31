@@ -3,8 +3,7 @@ import './Post.css';
 import {readFeeds} from "../Api";
 import user from "../../H05/Img/user.png";
 
-export const Post = (id) => {
-    // const id = props.match.params.id;
+export const Post = (PostID) => {
     const [post, setPost] = useState({
         user : '',
         content : '',
@@ -13,7 +12,7 @@ export const Post = (id) => {
     const DisplayPost = async() => {
         const token = window.localStorage.getItem('Token');
 
-        const feedResult = await fetch('https://react-js-sample-api.kmuwink.net/feed/'+id,{
+        const feedResult = await fetch('https://react-js-sample-api.kmuwink.net/feed/'+PostID["id"],{
             method: 'get',
             headers: {
                 'Authorization':token,
