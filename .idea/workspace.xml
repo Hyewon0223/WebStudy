@@ -44,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web-react/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web-react" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -56,11 +56,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H07" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\TicTacToe" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H06" />
-      <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H05" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H07" />
@@ -110,6 +110,8 @@
       <workItem from="1611658182013" duration="310000" />
       <workItem from="1611743333035" duration="5000" />
       <workItem from="1611845731944" duration="401000" />
+      <workItem from="1612013598576" duration="1440000" />
+      <workItem from="1612073845071" duration="1900000" />
     </task>
     <task id="LOCAL-00001" summary="[H03_ReviewPage]Complete">
       <created>1606073241471</created>
@@ -419,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611845871474</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="[H08_Comment]Get &amp; Post Feed">
+      <created>1612013836091</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1612013836091</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,7 +448,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[H06_Weather]Weather Data" />
     <MESSAGE value="[H06_Weather]reset" />
     <MESSAGE value="[H06_Weather]basic complete" />
     <MESSAGE value="[H06_Weather]complete" />
@@ -464,6 +472,7 @@
     <MESSAGE value="[H07_Join&amp;Login]README" />
     <MESSAGE value="[H08_Commit]basic" />
     <MESSAGE value="[H08_Commit]TimeLinePage" />
-    <option name="LAST_COMMIT_MESSAGE" value="[H08_Commit]TimeLinePage" />
+    <MESSAGE value="[H08_Comment]Get &amp; Post Feed" />
+    <option name="LAST_COMMIT_MESSAGE" value="[H08_Comment]Get &amp; Post Feed" />
   </component>
 </project>

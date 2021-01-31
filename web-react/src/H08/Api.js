@@ -1,10 +1,7 @@
 import React from 'react';
 
-export async function createFeed(username, body){
-    console.log(window.localStorage.getItem(username));
-    const name = window.localStorage.getItem(username).split("\"")
-    const token = "Token" + " " + name[3];
-    console.log(token);
+export async function createFeed(body){
+    const token = window.localStorage.getItem('Token');
 
     const result = await fetch('https://react-js-sample-api.kmuwink.net/feed/',{
         method: 'post',
@@ -18,10 +15,8 @@ export async function createFeed(username, body){
     });
 }
 
-export async function readFeeds(username){
-    const name = window.localStorage.getItem(username).split("\"")
-    const token = "Token" + " " + name[3];
-    console.log(token);
+export async function readFeeds(){
+    const token = window.localStorage.getItem('Token');
 
     const feedResult = await fetch('https://react-js-sample-api.kmuwink.net/feed/',{
         method: 'get',
@@ -34,10 +29,32 @@ export async function readFeeds(username){
     return result;
 }
 
-//이런 식으로 하면 프론트 개발시 좋음
-// export async function readInfo(){
-//     return{
-//         name : '최혜원',
-//         id : "_hhyeoni",
-//     }
-// }
+export async function readComments(id){
+    console.log(id);
+    const token = window.localStorage.getItem('Token');
+
+    const feedResult = await fetch('https://react-js-sample-api.kmuwink.net/feed/'+id+'/comment',{
+        method: 'get',
+        headers: {
+            'Authorization':token,
+        },
+    });
+    const result = await feedResult.json();
+    console.log(result);
+    return result;
+}
+
+export async function createComment(id, content){
+    const token = window.localStorage.getItem('Token');
+
+    const result = await fetch('https://react-js-sample-api.kmuwink.net/feed/'+id+'/comment/',{
+        method: 'post',
+        headers: {
+            'Authorization':token,
+            'Content-Type':'application/json',
+        },
+        body: JSON.stringify({
+            content: content,
+        }),
+    });
+}

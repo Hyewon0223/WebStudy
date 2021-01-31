@@ -6,12 +6,11 @@ import {TitleBar} from '../../H05/component/TitleBar';
 import {readFeeds, createFeed} from "../Api";
 
 function TimeLinePage(props){
-    const username = localStorage.key(1);
     const [feeds, setFeeds] = useState([]);
 
     useEffect(() => {
         const server = async() => {
-            setFeeds(await readFeeds(username));
+            setFeeds(await readFeeds());
         }
         server();
     }, []);

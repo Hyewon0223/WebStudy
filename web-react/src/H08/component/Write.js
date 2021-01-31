@@ -3,7 +3,6 @@ import './Write.css';
 
 export function Write(props){
     const [user, setUser] = useState({
-        username: localStorage.key(1),
         writeContent: '',
     })
 
@@ -16,7 +15,7 @@ export function Write(props){
     }
 
     const postClick = e => {
-        props.writeFunc(user.username,user.writeContent);
+        props.writeFunc(user.writeContent);
         console.log("내용 : ", user.writeContent);
         setUser({
             writeContent: ''

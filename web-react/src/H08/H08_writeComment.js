@@ -7,8 +7,9 @@ import MainPage from "../H05/page/MainPage";
 import TimeLinePage from "./page/TimeLinePage";
 import MyPage from "../H05/page/MyPage";
 import PostPage from "./page/PostPage";
+import {Switch} from "react-router";
 
-export const H07_Join_LogIn = () => {
+export const H08_writeComment = () => {
     return <>
         <Router>
             <div>
@@ -17,11 +18,13 @@ export const H07_Join_LogIn = () => {
                 <Route path='/MainPage' component={MainPage}/>
                 <Route path='/TimeLinePage' component={TimeLinePage}/>
                 <Route path='/MyPage' component={MyPage}/>
-                <Route path='/PostPage' component={PostPage}/>
+                <Switch>
+                    <Route path='/PostPage/:id' component={PostPage}/>
+                </Switch>
             </div>
         </Router>
     </>
 
 }
 
-export default H07_Join_LogIn;
+export default H08_writeComment;

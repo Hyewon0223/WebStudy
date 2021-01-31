@@ -2,16 +2,21 @@ import React, {useState, useEffect} from 'react';
 import user from '../../H05/Img/user.png'
 import './Feed.css'
 import {useHistory} from "react-router";
+import PostPage from "../page/PostPage";
 
 export const Feed = (props) => {
     const history = useHistory();
 
-    const movePostPage = () => {
-        history.push('/PostPage/'+props.id);
+    const movePostPage = (id) => {
+        console.log(id);
+        // props.readCommentFunc(id);
+        // const URL = 'https://react-js-sample-api.kmuwink.net/feed/'+id;
+        // PostPage(URL);
+        history.push(`/PostPage/${id}`);
     }
 
     return <>
-        <div className = "feed" onClick={movePostPage}>
+        <div className = "feed" onClick={() => {movePostPage(props.id)}}>
             <div className = "feedUser">
                 <img id = "userIcon" src = {user}/>
                 <div>{props.id}</div>
