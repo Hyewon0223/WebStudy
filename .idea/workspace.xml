@@ -21,8 +21,28 @@
   <component name="ChangeListManager">
     <list default="true" id="c06288f1-e5bb-4a97-91ac-dfee3d6a78d8" name="Default Changelist" comment="[H08_Commit]basic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-react/src/H08/component/Post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/page/PostPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-react/src/H08/page/PostPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/Api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/H08_writeComment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/Comment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/Comment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/CommentList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/CommentWrite.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/CommentWrite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/Feed.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/Feed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/List.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/List.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/Post.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/Post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/TimeLine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/Write.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/Write.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/img/comment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/img/edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/img/x-mark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/page/PostPage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/page/PostPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/page/TimeLinePage.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +133,9 @@
       <workItem from="1611743333035" duration="5000" />
       <workItem from="1611845731944" duration="401000" />
       <workItem from="1612013598576" duration="1440000" />
-      <workItem from="1612073845071" duration="4185000" />
+      <workItem from="1612073845071" duration="4845000" />
+      <workItem from="1612183165622" duration="38000" />
+      <workItem from="1612183208928" duration="1132000" />
     </task>
     <task id="LOCAL-00001" summary="[H03_ReviewPage]Complete">
       <created>1606073241471</created>
@@ -437,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612099736526</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="[H08_Comment]Read&amp;Post&amp;Del Comment, Del Post">
+      <created>1612114703072</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1612114703072</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +486,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[H06_Weather]basic complete" />
     <MESSAGE value="[H06_Weather]complete" />
     <MESSAGE value="[BusInfo]get data(fail_CORS)" />
     <MESSAGE value="[BusInfo]get data(fail2_CORS)" />
@@ -482,6 +510,7 @@
     <MESSAGE value="[H08_Commit]TimeLinePage" />
     <MESSAGE value="[H08_Comment]Get &amp; Post Feed" />
     <MESSAGE value="[H08_Comment]PostPage Complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="[H08_Comment]PostPage Complete" />
+    <MESSAGE value="[H08_Comment]Read&amp;Post&amp;Del Comment, Del Post" />
+    <option name="LAST_COMMIT_MESSAGE" value="[H08_Comment]Read&amp;Post&amp;Del Comment, Del Post" />
   </component>
 </project>
