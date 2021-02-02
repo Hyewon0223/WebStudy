@@ -1,0 +1,26 @@
+.WriteComment{
+    display : flex;
+    /*justify-content: space-between;*/
+}
+
+#WriteComment{
+    float : bottom;
+    display: flex;
+    margin : auto;
+    width : 250px;
+    height : 50px;
+    background : #f4f4f4;
+    border : none;
+    resize : none;
+    border-radius : 5px 5px 5px 5px;
+}
+
+#CmtPostBtn{
+    width : 60px;
+    height : 50px;
+    margin : auto;
+
+    vertical-align: center;
+    border : none;
+    border-radius: 5px 5px 5px 5px;
+}

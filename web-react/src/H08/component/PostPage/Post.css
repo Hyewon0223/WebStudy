@@ -1,0 +1,30 @@
+.post{
+    background : white;
+    padding : 10px;
+    height : 600px;
+    width : 500px;
+
+    /*border : 1px solid black;*/
+}
+
+.postUser{
+    height : 50px;
+    flex-direction : row;
+    flex : 1;
+    position : relative;
+    display: flex;
+    align-items: center;
+    border-bottom : 1px solid black;
+}
+
+#postName{
+    font-size : 16px;
+    font-weight : bold;
+    margin-left : 15px;
+}
+
+.postContent{
+    margin-left : 20px;
+    font-size : 16px;
+    padding : 10px;
+}
