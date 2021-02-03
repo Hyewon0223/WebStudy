@@ -77,7 +77,6 @@ export const Feed = (props) => {
             <div className = "feedUser">
                 <div id="left">
                     <img id = "userIcon" src = {user}/>
-                    <div>{props.id}</div>
                     <div id = "userName">{props.name}</div>
                 </div>
                 <div id="right">

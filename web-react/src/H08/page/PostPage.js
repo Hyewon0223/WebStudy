@@ -8,7 +8,6 @@ import './PostPage.css';
 import CommentWrite from "../component/PostPage/CommentWrite";
 
 export const PostPage = (props) => {
-    const id = props.match.params.id;
     const [comments, setComments] = useState([]);
     useEffect(() => {
         const server = async() => {

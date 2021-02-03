@@ -10,7 +10,7 @@ function TimeLinePage(props){
 
     useEffect(() => {
         const server = async() => {
-            setFeeds(await readFeeds());
+            setFeeds((await readFeeds()).reverse());
         }
         server();
     }, []);

@@ -20,29 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c06288f1-e5bb-4a97-91ac-dfee3d6a78d8" name="Default Changelist" comment="[H08_Commit]basic">
+      <change afterPath="$PROJECT_DIR$/web-react/src/H08/Comment fd315b379be94138a7debaf4b4873ec8/KakaoTalk_20210202_203258863.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-react/src/H08/Comment fd315b379be94138a7debaf4b4873ec8/PostPage-.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-react/src/H08/Comment fd315b379be94138a7debaf4b4873ec8/PostPage-Del.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-react/src/H08/Comment fd315b379be94138a7debaf4b4873ec8/PostPage-Del2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-react/src/H08/Comment fd315b379be94138a7debaf4b4873ec8/PostPage-Edit1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-react/src/H08/Comment fd315b379be94138a7debaf4b4873ec8/PostPage-post.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-react/src/H08/Comment fd315b379be94138a7debaf4b4873ec8/TimeLinePage-Del.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-react/src/H08/Comment fd315b379be94138a7debaf4b4873ec8/TimeLinePage-Del2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-react/src/H08/Comment fd315b379be94138a7debaf4b4873ec8/TimeLinePage-Edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-react/src/H08/Comment fd315b379be94138a7debaf4b4873ec8/TimeLinePage-post.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-react/src/H08/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/Api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/H08_writeComment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/Comment.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/Comment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/CommentList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/CommentWrite.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/CommentWrite.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/Feed.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/Feed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/List.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/List.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/Post.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/Post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/TimeLine.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/Write.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/Write.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/img/comment.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/img/edit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/img/x-mark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/page/PostPage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/page/PostPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/page/TimeLinePage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/TimeLinePage/Feed.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-react/src/H08/component/TimeLinePage/Feed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/page/PostPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-react/src/H08/page/PostPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/H08/page/TimeLinePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-react/src/H08/page/TimeLinePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +44,7 @@
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1keu2CIgn8sNoaKg0mQpwYGMVuB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -85,11 +78,11 @@
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H06" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H08" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H07" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\TicTacToe" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H05" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H03\img" />
-      <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H03" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -136,13 +129,8 @@
       <workItem from="1612073845071" duration="4845000" />
       <workItem from="1612183165622" duration="38000" />
       <workItem from="1612183208928" duration="1132000" />
-    </task>
-    <task id="LOCAL-00001" summary="[H03_ReviewPage]Complete">
-      <created>1606073241471</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1606073241471</updated>
+      <workItem from="1612239857295" duration="313000" />
+      <workItem from="1612268610290" duration="853000" />
     </task>
     <task id="LOCAL-00002" summary="[H03_ReviewPage]README">
       <created>1606075117740</created>
@@ -466,7 +454,28 @@
       <option name="project" value="LOCAL" />
       <updated>1612114703072</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="[H08_Comment]Edit Post&amp;Comment">
+      <created>1612239961445</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1612239961445</updated>
+    </task>
+    <task id="LOCAL-00049" summary="[H08_Comment]Edit Post&amp;Comment">
+      <created>1612240091647</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1612240091647</updated>
+    </task>
+    <task id="LOCAL-00050" summary="[H07]Update README">
+      <created>1612268938172</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1612268938172</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,8 +495,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[H06_Weather]complete" />
-    <MESSAGE value="[BusInfo]get data(fail_CORS)" />
     <MESSAGE value="[BusInfo]get data(fail2_CORS)" />
     <MESSAGE value="[TicTacToe]init" />
     <MESSAGE value="[TicTacToe]Duplicate &amp; Props" />
@@ -511,6 +518,8 @@
     <MESSAGE value="[H08_Comment]Get &amp; Post Feed" />
     <MESSAGE value="[H08_Comment]PostPage Complete" />
     <MESSAGE value="[H08_Comment]Read&amp;Post&amp;Del Comment, Del Post" />
-    <option name="LAST_COMMIT_MESSAGE" value="[H08_Comment]Read&amp;Post&amp;Del Comment, Del Post" />
+    <MESSAGE value="[H08_Comment]Edit Post&amp;Comment" />
+    <MESSAGE value="[H07]Update README" />
+    <option name="LAST_COMMIT_MESSAGE" value="[H07]Update README" />
   </component>
 </project>
