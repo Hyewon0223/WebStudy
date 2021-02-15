@@ -20,21 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c06288f1-e5bb-4a97-91ac-dfee3d6a78d8" name="Default Changelist" comment="[H08_Commit]basic">
-      <change afterPath="$PROJECT_DIR$/web-react/src/H08/Comment fd315b379be94138a7debaf4b4873ec8/KakaoTalk_20210202_203258863.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-react/src/H08/Comment fd315b379be94138a7debaf4b4873ec8/PostPage-.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-react/src/H08/Comment fd315b379be94138a7debaf4b4873ec8/PostPage-Del.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-react/src/H08/Comment fd315b379be94138a7debaf4b4873ec8/PostPage-Del2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-react/src/H08/Comment fd315b379be94138a7debaf4b4873ec8/PostPage-Edit1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-react/src/H08/Comment fd315b379be94138a7debaf4b4873ec8/PostPage-post.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-react/src/H08/Comment fd315b379be94138a7debaf4b4873ec8/TimeLinePage-Del.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-react/src/H08/Comment fd315b379be94138a7debaf4b4873ec8/TimeLinePage-Del2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-react/src/H08/Comment fd315b379be94138a7debaf4b4873ec8/TimeLinePage-Edit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-react/src/H08/Comment fd315b379be94138a7debaf4b4873ec8/TimeLinePage-post.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-react/src/H08/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-01-27__9_38__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/component/TimeLinePage/Feed.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-react/src/H08/component/TimeLinePage/Feed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/page/PostPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-react/src/H08/page/PostPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H08/page/TimeLinePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-react/src/H08/page/TimeLinePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,13 +118,11 @@
       <workItem from="1612183208928" duration="1132000" />
       <workItem from="1612239857295" duration="313000" />
       <workItem from="1612268610290" duration="853000" />
-    </task>
-    <task id="LOCAL-00002" summary="[H03_ReviewPage]README">
-      <created>1606075117740</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1606075117740</updated>
+      <workItem from="1612350707382" duration="778000" />
+      <workItem from="1612433812438" duration="907000" />
+      <workItem from="1612699612458" duration="631000" />
+      <workItem from="1612706577104" duration="8000" />
+      <workItem from="1613135877900" duration="375000" />
     </task>
     <task id="LOCAL-00003" summary="[H03_ReviewPage]update_ReviewAddImage">
       <created>1606099031325</created>
@@ -475,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612268938172</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="[H08_Comment]complete">
+      <created>1612350756877</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1612350756880</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +487,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[BusInfo]get data(fail2_CORS)" />
     <MESSAGE value="[TicTacToe]init" />
     <MESSAGE value="[TicTacToe]Duplicate &amp; Props" />
     <MESSAGE value="[TicTacToe]Display ClickPlayer" />
@@ -520,6 +511,7 @@
     <MESSAGE value="[H08_Comment]Read&amp;Post&amp;Del Comment, Del Post" />
     <MESSAGE value="[H08_Comment]Edit Post&amp;Comment" />
     <MESSAGE value="[H07]Update README" />
-    <option name="LAST_COMMIT_MESSAGE" value="[H07]Update README" />
+    <MESSAGE value="[H08_Comment]complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="[H08_Comment]complete" />
   </component>
 </project>

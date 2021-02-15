@@ -9,7 +9,8 @@ import CommentWrite from "./CommentWrite";
 
 export const Comment = (props) => {
     const [state, setState] = useState({
-        state : 'POST',
+        changeState : false,
+        contentState : 'POST',
         EditComment : '',
     });
 
@@ -36,7 +37,7 @@ export const Comment = (props) => {
         const name = window.localStorage.getItem("username");
         if (name === props.name){
             setState({
-                state : 'EDIT',
+                contentState : 'EDIT',
                 EditComment : props.body,
             })
         }
@@ -49,21 +50,19 @@ export const Comment = (props) => {
         cmtEditAPI(PostID,CmtID,state.EditComment);
         console.log(CmtID+"번째 댓글이 수정되었습니다.");
         setState({
-            state : 'POST',
+            contentState : 'POST',
         })
     }
 
     const EditDisplay = () => {
-        if (state.state === "EDIT") {
-            return <>
-                <input id="contentInput" name="EditComment" placeholder="댓글 수정 내용"  value={state.EditComment} onChange={getValue}/>
-                <button id="CmtEditBtn" onClick={() => {cmtEditClick(props.PostID,props.id)}}>Edit</button>
-            </>
+        if (state.contentState === "POST") {
+            return <div className="feedContent"><div id="content">{props.body}</div></div>
         }
-
-        else if (state.state === "POST"){
-            return <div className = "feedContent"><div id = "content">{props.body}</div></div>
-        }
+        return <>
+            <input id="contentInput" name="EditComment" placeholder="댓글 수정 내용" value={state.EditComment}
+                   onChange={getValue}/>
+            <button id="CmtEditBtn" onClick={() => {cmtEditClick(props.PostID, props.id)}}>Edit</button>
+        </>
     }
 
     return <>
