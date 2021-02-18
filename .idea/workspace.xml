@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c06288f1-e5bb-4a97-91ac-dfee3d6a78d8" name="Default Changelist" comment="[H08_Commit]basic">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-01-27__9_38__Default_Changelist_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-react/REACT.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/web-react/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web-react/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web-react" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,8 +59,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react" />
+      <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H07" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\TicTacToe" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H06" />
@@ -123,13 +124,8 @@
       <workItem from="1612699612458" duration="631000" />
       <workItem from="1612706577104" duration="8000" />
       <workItem from="1613135877900" duration="375000" />
-    </task>
-    <task id="LOCAL-00003" summary="[H03_ReviewPage]update_ReviewAddImage">
-      <created>1606099031325</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1606099031325</updated>
+      <workItem from="1613394844569" duration="120000" />
+      <workItem from="1613575814892" duration="2515000" />
     </task>
     <task id="LOCAL-00004" summary="[H03_ReviewPage]complete">
       <created>1606099401300</created>
@@ -467,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612350756880</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="[H08_Comment]Modify Edit">
+      <created>1613394939893</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1613394939893</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +490,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[TicTacToe]init" />
     <MESSAGE value="[TicTacToe]Duplicate &amp; Props" />
     <MESSAGE value="[TicTacToe]Display ClickPlayer" />
     <MESSAGE value="[TicTacToe]Display Player &amp; Result" />
@@ -512,6 +514,7 @@
     <MESSAGE value="[H08_Comment]Edit Post&amp;Comment" />
     <MESSAGE value="[H07]Update README" />
     <MESSAGE value="[H08_Comment]complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="[H08_Comment]complete" />
+    <MESSAGE value="[H08_Comment]Modify Edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="[H08_Comment]Modify Edit" />
   </component>
 </project>
