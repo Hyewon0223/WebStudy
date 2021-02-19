@@ -5,7 +5,7 @@
 https://github.com/Hyewon0223/WebStudy/tree/main/javascript-css-react/TimeLine   
 <img width="80%" src="img/HTML_TimeLine.png"></img>   
 ```
-State : 완료
+State : 완료 🙌🏻
 Date : 2020.11.13 ~ 2020.11.15 
 Project : HTML&CSS를 이용한 TimeLine  만들기
 ```   
@@ -14,14 +14,14 @@ Project : HTML&CSS를 이용한 TimeLine  만들기
 https://github.com/Hyewon0223/WebStudy/tree/main/web-react/src/KFOP/H01      
 <img width="80%" src="img/KFOP_H01.png"></img>   
 ```
-State : 완료
+State : 완료 🙌🏻
 Date : 2020.11.22   
 Project : REACT 기초 익히기  
 ```   
 
 **2. Review Page**   
 https://github.com/Hyewon0223/WebStudy/tree/main/web-react/src/H03   
-<img width="80%" src="img/H03.png"></img>   
+<img width="50%" src="img/H03.png"></img>   
 ```
 State : 완료 🙌🏻
 Date : 2020.11.23
@@ -30,7 +30,7 @@ Project : REACT를 이용한 리뷰페이지 만들기
 
 **3. Write Comment**  
 https://github.com/Hyewon0223/WebStudy/tree/main/web-react/src/Week4   
-<img width="80%" src="img/Week4.png"></img>   
+<img width="50%" src="img/Week4.png"></img>   
 ```
 State : 완료 🙌🏻
 Date : 2020.12.01
@@ -58,7 +58,7 @@ Project : [H06]openWeather API를 이용해 원하는 나라/지역의 날씨 �
 **6. Bus Info**  
 https://github.com/Hyewon0223/WebStudy/tree/main/web-react/src/BusInfo      
 ```
-State : 진행 중📚
+State : 진행 중 📚
 Date : 2021.01.12 ~ 2021.01.13
 Project : 공공 API를 이용해 버스 도착 정보 나타내기
 ```   
