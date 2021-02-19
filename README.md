@@ -2,16 +2,15 @@
 
 #### 프로젝트 소개
 
-<img align="left" width="120" height="120" src="img/"></img>
+<img align="left" width="120" height="120" src="img/KFOP_H01.png"></img>
 ```
 KFOP
-State : 완료 🙌🏻
-Date : 2020.11.22
-Project : REACT 기초 익히기
-GitHub : https://github.com/Hyewon0223/WebStudy/tree/main/web-react/src/KFOP/H01
+State : 완료
+Date : 2020.11.22   
+Project : REACT 기초 익히기   
+GitHub : https://github.com/Hyewon0223/WebStudy/tree/main/web-react/src/KFOP/H01   
 ```
-
-<img align="left" width="120" height="120" src="img/"></img>
+<img align="left" width="120" height="120" src="img/H03.png"></img>
 ```
 Review Page
 State : 완료 🙌🏻
@@ -20,7 +19,7 @@ Project : REACT를 이용한 리뷰페이지 만들기
 GitHub : https://github.com/Hyewon0223/WebStudy/tree/main/web-react/src/H03
 ```
 
-<img align="left" width="120" height="120" src="img/"></img>
+<img align="left" width="120" height="120" src="img/Week4.png"></img>
 ```
 Write Comment
 State : 완료 🙌🏻
@@ -29,7 +28,7 @@ Project : REACT를 이용해 주어진 화면과 동일하게 만들기
 GitHub : https://github.com/Hyewon0223/WebStudy/tree/main/web-react/src/Week4
 ```
 
-<img align="left" width="120" height="120" src="img/"></img>
+<img align="left" width="120" height="120" src="img/H05_TimeLinePage.png"></img>
 ```
 TimeLine
 State : 완료 🙌🏻
@@ -38,7 +37,7 @@ Project : [H05_Hyewongram]타임 라인 구현
 GitHub : https://github.com/Hyewon0223/WebStudy/tree/main/web-react/src/H05
 ```
 
-<img align="left" width="120" height="120" src="img/"></img>
+<img align="left" width="120" height="120" src="img/H06.png"></img>
 ```
 Weather Info
 State : 완료 🙌🏻
@@ -56,7 +55,7 @@ Project : 공공 API를 이용해 버스 도착 정보 나타내기
 GitHub : https://github.com/Hyewon0223/WebStudy/tree/main/web-react/src/BusInfo
 ```
 
-<img align="left" width="120" height="120" src="img/"></img>
+<img align="left" width="120" height="120" src="img/TicTacToe.png"></img>
 ```
 TicTacToe
 State : 완료 🙌🏻
@@ -65,7 +64,7 @@ Project : React를 이용한 Tic Tac Toe 미니 게임
 GitHub : https://github.com/Hyewon0223/WebStudy/tree/main/web-react/src/TicTacToe
 ```
 
-<img align="left" width="120" height="120" src="img/"></img>
+<img align="left" width="120" height="120" src="img/H07_LogIn.png"></img>
 ```
 Join & LogIn
 State : 완료 🙌🏻
@@ -74,7 +73,7 @@ Project : [H07]React를 이용한 Join & Login 페이지 만들기
 GitHub : https://github.com/Hyewon0223/WebStudy/tree/main/web-react/src/H07
 ```
 
-<img align="left" width="120" height="120" src="img/"></img>
+<img align="left" width="120" height="120" src="img/H08_PostPage.png"></img>
 ```
 Comment
 State : 완료 🙌🏻
