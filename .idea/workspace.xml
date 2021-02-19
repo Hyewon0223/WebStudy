@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c06288f1-e5bb-4a97-91ac-dfee3d6a78d8" name="Default Changelist" comment="README" />
+    <list default="true" id="c06288f1-e5bb-4a97-91ac-dfee3d6a78d8" name="Default Changelist" comment="README">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/TicTacToe.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/TicTacToe.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,11 +59,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\img" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H07" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\TicTacToe" />
-      <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H06" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H08" />
@@ -123,20 +127,7 @@
       <workItem from="1613394844569" duration="120000" />
       <workItem from="1613575814892" duration="2515000" />
       <workItem from="1613622409983" duration="258000" />
-    </task>
-    <task id="LOCAL-00005" summary="[H05_TimeLine]TimeLinePage &amp; MainPage">
-      <created>1609508728525</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1609508728525</updated>
-    </task>
-    <task id="LOCAL-00006" summary="[H05_TimeLine]MainPage &amp; MyPage &amp; Router">
-      <created>1609597424346</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1609597424346</updated>
+      <workItem from="1613712504327" duration="931000" />
     </task>
     <task id="LOCAL-00007" summary="[H05_TimeLine]Using the state/Effect Hook">
       <created>1609685578740</created>
@@ -467,7 +458,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613622547459</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Update README">
+      <created>1613712532614</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1613712532614</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Update README">
+      <created>1613712807862</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1613712807862</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,7 +495,6 @@
     <MESSAGE value="[TicTacToe]Display ClickPlayer" />
     <MESSAGE value="[TicTacToe]Display Player &amp; Result" />
     <MESSAGE value="[H06_Weather]README" />
-    <MESSAGE value="Update README" />
     <MESSAGE value="[TicTacToe]Reset &amp; CSS" />
     <MESSAGE value="[TicTacToe]Display &amp; Condition" />
     <MESSAGE value="[H07_Join&amp;LogIn]basic" />
@@ -512,6 +516,7 @@
     <MESSAGE value="[H08_Comment]complete" />
     <MESSAGE value="[H08_Comment]Modify Edit" />
     <MESSAGE value="README" />
-    <option name="LAST_COMMIT_MESSAGE" value="README" />
+    <MESSAGE value="Update README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README" />
   </component>
 </project>
