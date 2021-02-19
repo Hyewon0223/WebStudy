@@ -1,7 +1,14 @@
-# Web Study
-
-#### 프로젝트 소개
-
+# [Web Study] Project
+## HTML
+<img align="left" width="120" height="120" src="img/HTML_TimeLine.png"></img>
+```
+TimeLine
+State : 완료
+Date : 2020.11.13 ~ 2020.11.15 
+Project : HTML&CSS를 이용한 TimeLine  만들기
+GitHub : https://github.com/Hyewon0223/WebStudy/tree/main/javascript-css-react/TimeLine   
+```
+## REACT
 <img align="left" width="120" height="120" src="img/KFOP_H01.png"></img>
 ```
 KFOP
@@ -64,7 +71,7 @@ Project : React를 이용한 Tic Tac Toe 미니 게임
 GitHub : https://github.com/Hyewon0223/WebStudy/tree/main/web-react/src/TicTacToe
 ```
 
-<img align="left" width="120" height="120" src="img/H07_LogIn.png"></img>
+<img align="left" width="120" height="120" src="img/H07_Login.png"></img>
 ```
 Join & LogIn
 State : 완료 🙌🏻
