@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c06288f1-e5bb-4a97-91ac-dfee3d6a78d8" name="Default Changelist" comment="README">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.expo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.expo/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,21 +127,13 @@
       <workItem from="1613394844569" duration="120000" />
       <workItem from="1613575814892" duration="2515000" />
       <workItem from="1613622409983" duration="258000" />
-      <workItem from="1613712504327" duration="1428000" />
-    </task>
-    <task id="LOCAL-00008" summary="[H05_TimeLine]Feed sort by latest">
-      <created>1609688927905</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1609688927905</updated>
-    </task>
-    <task id="LOCAL-00009" summary="[H05_TimeLine]complete">
-      <created>1609690614439</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1609690614439</updated>
+      <workItem from="1613712504327" duration="1559000" />
+      <workItem from="1613900741124" duration="2687000" />
+      <workItem from="1613911297050" duration="3274000" />
+      <workItem from="1614172039148" duration="3328000" />
+      <workItem from="1614250384121" duration="3611000" />
+      <workItem from="1614319078298" duration="1411000" />
+      <workItem from="1614516178231" duration="646000" />
     </task>
     <task id="LOCAL-00010" summary="[H05_TimeLine]complete">
       <created>1609691930914</created>
@@ -470,7 +464,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613713942587</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Update README">
+      <created>1613746851085</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1613746851085</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Update README">
+      <created>1613746939119</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1613746939119</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -43,6 +43,7 @@ export function Main(props){
                 icon: `http://openweathermap.com/img/w/${result.weather[0].icon}.png`,
             })
         })
+            .catch(err => alert ("없는 도시입니다"))
     }
 
     useEffect(() => {

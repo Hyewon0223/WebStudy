@@ -15,3 +15,6 @@
    <br>   
 3. 기능<br>
     1) 검색시 '검색(이미지)'버튼을 누르거나 엔터를 치면 검색이 됨   
+    2) 잘못된 지역 검색시 에러 메시지 "없는 도시입니다." 출력   
+       <img src="img/not_found.png" width="60%" title="not_found" alt="not_found"></img>    
+       
