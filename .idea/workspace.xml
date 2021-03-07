@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c06288f1-e5bb-4a97-91ac-dfee3d6a78d8" name="Default Changelist" comment="README">
-      <change afterPath="$PROJECT_DIR$/.expo/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.expo/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c06288f1-e5bb-4a97-91ac-dfee3d6a78d8" name="Default Changelist" comment="README" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,13 +130,7 @@
       <workItem from="1614250384121" duration="3611000" />
       <workItem from="1614319078298" duration="1411000" />
       <workItem from="1614516178231" duration="646000" />
-    </task>
-    <task id="LOCAL-00010" summary="[H05_TimeLine]complete">
-      <created>1609691930914</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1609691930914</updated>
+      <workItem from="1615121192186" duration="371000" />
     </task>
     <task id="LOCAL-00011" summary="[H05_TimeLine]Front-end Tip">
       <created>1609772112372</created>
@@ -478,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613746939119</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="[Weather]Add alert error message for 404_Not_Found">
+      <created>1615121395383</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1615121395384</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +495,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[TicTacToe]Display ClickPlayer" />
     <MESSAGE value="[TicTacToe]Display Player &amp; Result" />
     <MESSAGE value="[H06_Weather]README" />
     <MESSAGE value="[TicTacToe]Reset &amp; CSS" />
@@ -523,6 +519,7 @@
     <MESSAGE value="[H08_Comment]Modify Edit" />
     <MESSAGE value="README" />
     <MESSAGE value="Update README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README" />
+    <MESSAGE value="[Weather]Add alert error message for 404_Not_Found" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Weather]Add alert error message for 404_Not_Found" />
   </component>
 </project>
