@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c06288f1-e5bb-4a97-91ac-dfee3d6a78d8" name="Default Changelist" comment="README">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,11 +65,11 @@
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\TicTacToe" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\Note\Wireframe" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\Note" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H08" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H07" />
-      <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\TicTacToe" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -136,13 +135,7 @@
       <workItem from="1614516178231" duration="646000" />
       <workItem from="1615121192186" duration="2049000" />
       <workItem from="1615373949712" duration="115000" />
-    </task>
-    <task id="LOCAL-00014" summary="API KEY">
-      <created>1609858614578</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1609858614578</updated>
+      <workItem from="1615460199577" duration="1251000" />
     </task>
     <task id="LOCAL-00015" summary="[H06_Weather_test]Select Country">
       <created>1609862382864</created>
@@ -480,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615373993288</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="[Note]Move Note to src">
+      <created>1615460319858</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1615460319859</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,7 +503,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/WebStudy" />
     </ignored-roots>
-    <MESSAGE value="[TicTacToe]Reset &amp; CSS" />
     <MESSAGE value="[TicTacToe]Display &amp; Condition" />
     <MESSAGE value="[H07_Join&amp;LogIn]basic" />
     <MESSAGE value="[H07_Join&amp;LogIn]connect API" />
@@ -528,6 +527,7 @@
     <MESSAGE value="[Weather]Add alert error message for 404_Not_Found" />
     <MESSAGE value="[Weather]Update README" />
     <MESSAGE value="[Note]Wireframe" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Note]Wireframe" />
+    <MESSAGE value="[Note]Move Note to src" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Note]Move Note to src" />
   </component>
 </project>
