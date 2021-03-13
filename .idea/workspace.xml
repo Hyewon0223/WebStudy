@@ -20,16 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c06288f1-e5bb-4a97-91ac-dfee3d6a78d8" name="Default Changelist" comment="README">
-      <change afterPath="$PROJECT_DIR$/web-react/src/Note/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-react/src/Note/img/add-file.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-react/src/Note/img/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-react/src/Note/img/checked.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-react/src/Note/img/delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-react/src/Note/img/file.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-react/src/Note/img/save-file.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-react/src/Note/img/settings.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/H05/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/web-react/src/H05/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/Note/Note_Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/Note/Wireframe/Note_File.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/Note/Wireframe/Note_Home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/Note/Wireframe/Note_Settings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/Note/component/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/Note/img/add-file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/Note/img/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/Note/img/checked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/Note/img/delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/Note/img/file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/Note/img/save-file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-react/src/Note/img/settings.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web-react/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -74,9 +77,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\img" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react" />
-      <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\H07" />
       <recent name="C:\Users\ch2w2\WebstormProjects\wink-react-study\WebStudy\web-react\src\TicTacToe" />
     </key>
@@ -152,14 +155,7 @@
       <workItem from="1615121192186" duration="2049000" />
       <workItem from="1615373949712" duration="115000" />
       <workItem from="1615460199577" duration="5910000" />
-      <workItem from="1615621116185" duration="1239000" />
-    </task>
-    <task id="LOCAL-00016" summary="[H06_Weather]component">
-      <created>1609943121015</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1609943121015</updated>
+      <workItem from="1615621116185" duration="1888000" />
     </task>
     <task id="LOCAL-00017" summary="[H06_Weather]Weather Data">
       <created>1610028292948</created>
@@ -497,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615477936846</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="[Note]complete Header">
+      <created>1615639149720</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1615639149721</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +523,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/WebStudy" />
     </ignored-roots>
-    <MESSAGE value="[TicTacToe]Display &amp; Condition" />
     <MESSAGE value="[H07_Join&amp;LogIn]basic" />
     <MESSAGE value="[H07_Join&amp;LogIn]connect API" />
     <MESSAGE value="[H07_Join&amp;Login]css complete &amp; Go to MainPage after login" />
@@ -545,6 +547,7 @@
     <MESSAGE value="[Weather]Update README" />
     <MESSAGE value="[Note]Move Note to src" />
     <MESSAGE value="[Note]Wireframe" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Note]Wireframe" />
+    <MESSAGE value="[Note]complete Header" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Note]complete Header" />
   </component>
 </project>

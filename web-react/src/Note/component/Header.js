@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import styled from 'styled-components';
+
 import Icon_setting from '../img/settings.png';
 import Icon_file from '../img/file.png';
 import Icon_back from '../img/back.png';
@@ -8,11 +9,26 @@ import Icon_checked from '../img/checked.png';
 import Icon_del from '../img/delete.png';
 import Icon_save from '../img/save-file.png';
 
-export const Header = (state) => {
+export const Header = (props) => {
     const [user,setUser] = useState({
         username : 'Note',
         state : '',
     })
+
+    useEffect(() => {
+        if (props.state === 'Home') {
+            setUser({
+                username : 'Note',
+                state: '',
+            })
+        }
+        else {
+            setUser({
+                username : 'Note',
+                state: <img src={Icon_back}/>,
+            })
+        }
+    }, []);
 
     return <>
         <Wrap>
@@ -36,6 +52,10 @@ const Wrap = styled.div`
 
 const BackDiv = styled.div`
     margin-left : 15px;
+    img {
+      width: 30px;
+      height: 30px;
+    }
 `
 
 const TitleDiv = styled.div`
