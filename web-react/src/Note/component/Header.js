@@ -31,7 +31,7 @@ export const Header = (props) => {
     }, []);
 
     return <>
-        <Wrap>
+        <Wrap style={{backgroundColor: props.color}}>
             <BackDiv>{user.state}</BackDiv>
             <TitleDiv>{user.username}</TitleDiv>
             <SettingDiv><img src={Icon_setting}/></SettingDiv>
@@ -42,7 +42,7 @@ export const Header = (props) => {
 export default Header;
 
 const Wrap = styled.div`
-  background : #FFF4B9;
+  //background : #FFF4B9;
   height: 40px;
 
   display: flex;
@@ -64,8 +64,8 @@ const TitleDiv = styled.div`
 
 const SettingDiv = styled.div`
   img{
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
   }
   margin-right : 15px;
 `
