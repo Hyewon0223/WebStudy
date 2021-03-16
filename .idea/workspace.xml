@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c06288f1-e5bb-4a97-91ac-dfee3d6a78d8" name="Default Changelist" comment="README">
-      <change afterPath="$PROJECT_DIR$/web-react/src/Note/Note_Settings.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/Note/component/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-react/src/Note/component/Header.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -146,13 +144,11 @@
       <workItem from="1615373949712" duration="115000" />
       <workItem from="1615460199577" duration="5910000" />
       <workItem from="1615621116185" duration="4308000" />
-    </task>
-    <task id="LOCAL-00018" summary="[H06_Weather]reset">
-      <created>1610116675103</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1610116675103</updated>
+      <workItem from="1615733721998" duration="1245000" />
+      <workItem from="1615784669008" duration="297000" />
+      <workItem from="1615785249180" duration="17000" />
+      <workItem from="1615785279270" duration="1657000" />
+      <workItem from="1615855249914" duration="1629000" />
     </task>
     <task id="LOCAL-00019" summary="[H06_Weather]basic complete">
       <created>1610121478497</created>
@@ -490,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615647989750</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="[Note]Complete Settings">
+      <created>1615734496566</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1615734496566</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,7 +516,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/WebStudy" />
     </ignored-roots>
-    <MESSAGE value="[H07_Join&amp;LogIn]connect API" />
     <MESSAGE value="[H07_Join&amp;Login]css complete &amp; Go to MainPage after login" />
     <MESSAGE value="[H07_Join&amp;Login]get Info Data(name, id,,,)" />
     <MESSAGE value="[TicTacToe]README" />
@@ -538,6 +540,11 @@
     <MESSAGE value="[Note]Wireframe" />
     <MESSAGE value="[Note]complete Header" />
     <MESSAGE value="[Note]Update Header" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Note]Update Header" />
+    <MESSAGE value="[Note]Complete Settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Note]Complete Settings" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,5 +1,6 @@
 import React, {useState,useEffect} from 'react';
 import styled from 'styled-components';
+import {BrowserRouter as Router, Route, Redirect} from "react-router-dom";
 
 import Header from "./component/Header";
 
@@ -18,13 +19,20 @@ export const Note_Settings = () => {
             ...user,
             [name]: value
         })
+        console.log(user.username);
     };
 
     const select = (idx) => {
         setUser({
+            ...user,
             theme : idx,
         })
     };
+
+    const submit = () => {
+        window.localStorage.setItem('UserName', user.username);
+        window.localStorage.setItem('Theme', user.theme);
+    }
 
     return <>
         <Wrap style={{backgroundColor: ContentColor[user.theme]}}>
@@ -43,7 +51,7 @@ export const Note_Settings = () => {
                     <Gray onClick={()=>select(4)}/>
                 </Color>
             </SelectColor>
-            <BtnDiv><button style={{backgroundColor:HeadColor[user.theme]}}>저장</button></BtnDiv>
+            <BtnDiv><button style={{backgroundColor:HeadColor[user.theme]}} onClick={()=>submit()}>저장</button></BtnDiv>
         </Wrap>
     </>
 }

@@ -8,33 +8,51 @@ import Icon_add_file from '../img/add-file.png';
 import Icon_checked from '../img/checked.png';
 import Icon_del from '../img/delete.png';
 import Icon_save from '../img/save-file.png';
+import {Link} from "react-router-dom";
+
+const HeadColor = ['#FFF4B9','#B9D1FF','#94FF9F','#D288FF','#676767'];
+const ContentColor = ['#FFFBE5','#E1EBFF','#D8FFDC','#EFD4FF','#C4C4C4'];
 
 export const Header = (props) => {
+    const UserName = window.localStorage.getItem("UserName");
+    const UserTheme = window.localStorage.getItem("Theme");
+
     const [user,setUser] = useState({
-        username : 'Note',
-        state : '',
+        username : UserName+'\'s Note',
+        leftIcon : '',
+        rightIcon : '',
     })
 
     useEffect(() => {
+        // Set Icons
         if (props.state === 'Home') {
             setUser({
-                username : 'Note',
-                state: '',
+                ...user,
+                leftIcon: '',
+                rightIcon: <Link to = "/Settings"><img src={Icon_setting}/></Link>,
             })
         }
-        else {
+
+        else if(props.state === 'Write') {
             setUser({
-                username : 'Note',
-                state: <img src={Icon_back}/>,
+                ...user,
+                leftIcon: <Link to = "/Home"><img src={Icon_back}/></Link>,
+            })
+        }
+
+        else if(props.state === 'Settings') {
+            setUser({
+                ...user,
+                leftIcon: <Link to = "/Home"><img src={Icon_back}/></Link>,
             })
         }
     }, []);
 
     return <>
-        <Wrap style={{backgroundColor: props.color}}>
-            <BackDiv>{user.state}</BackDiv>
+        <Wrap style={{backgroundColor: HeadColor[UserTheme]}}>
+            <BackDiv>{user.leftIcon}</BackDiv>
             <TitleDiv>{user.username}</TitleDiv>
-            <SettingDiv><img src={Icon_setting}/></SettingDiv>
+            <SettingDiv>{user.rightIcon}</SettingDiv>
         </Wrap>
     </>
 }
