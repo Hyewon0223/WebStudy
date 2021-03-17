@@ -19,8 +19,9 @@ export const Header = (props) => {
 
     const [user,setUser] = useState({
         username : UserName+'\'s Note',
-        leftIcon : '',
-        rightIcon : '',
+        leftIcon : <Transparent/>,
+        rightIcon : <Transparent/>,
+        color : props.color,
     })
 
     useEffect(() => {
@@ -28,7 +29,7 @@ export const Header = (props) => {
         if (props.state === 'Home') {
             setUser({
                 ...user,
-                leftIcon: '',
+                leftIcon: <Transparent/>,
                 rightIcon: <Link to = "/Settings"><img src={Icon_setting}/></Link>,
             })
         }
@@ -36,20 +37,23 @@ export const Header = (props) => {
         else if(props.state === 'Write') {
             setUser({
                 ...user,
-                leftIcon: <Link to = "/Home"><img src={Icon_back}/></Link>,
+                leftIcon: <Link to = "/"><img src={Icon_back}/></Link>,
+                rightIcon: <Link to = "/Settings"><img src={Icon_setting}/></Link>,
             })
         }
 
         else if(props.state === 'Settings') {
             setUser({
                 ...user,
-                leftIcon: <Link to = "/Home"><img src={Icon_back}/></Link>,
+                leftIcon: <Link to = "/"><img src={Icon_back}/></Link>,
+                rightIcon: <Transparent/>,
+
             })
         }
     }, []);
 
     return <>
-        <Wrap style={{backgroundColor: HeadColor[UserTheme]}}>
+        <Wrap style={{backgroundColor: props.color}}>
             <BackDiv>{user.leftIcon}</BackDiv>
             <TitleDiv>{user.username}</TitleDiv>
             <SettingDiv>{user.rightIcon}</SettingDiv>
@@ -86,4 +90,10 @@ const SettingDiv = styled.div`
     height: 30px;
   }
   margin-right : 15px;
+`
+
+const Transparent = styled.div`
+  width : 30px;
+  height : 30px;
+  background-color : transparent;
 `

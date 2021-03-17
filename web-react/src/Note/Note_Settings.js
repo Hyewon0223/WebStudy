@@ -8,9 +8,12 @@ const HeadColor = ['#FFF4B9','#B9D1FF','#94FF9F','#D288FF','#676767'];
 const ContentColor = ['#FFFBE5','#E1EBFF','#D8FFDC','#EFD4FF','#C4C4C4'];
 
 export const Note_Settings = () => {
+    const UserName = window.localStorage.getItem("UserName");
+    const UserTheme = window.localStorage.getItem("Theme");
+
     const [user, setUser] = useState({
-        username : '',
-        theme : 0,
+        username : UserName,
+        theme : UserTheme,
     });
 
     const getValue = e => {
