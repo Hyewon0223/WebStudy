@@ -21,21 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c06288f1-e5bb-4a97-91ac-dfee3d6a78d8" name="Default Changelist" comment="README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/Note/Note.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/Note/Note_Home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/Note/Note_Settings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/Note/Note_Write.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/Note/Wireframe/Note_Home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/Note/Wireframe/Note_Settings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/Note/Wireframe/Note_Write.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/Note/component/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/Note/img/add-file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/Note/img/back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/Note/img/checked.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/Note/img/delete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/Note/img/file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/Note/img/save-file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-react/src/Note/img/settings.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,13 +149,8 @@
       <workItem from="1615785249180" duration="17000" />
       <workItem from="1615785279270" duration="1657000" />
       <workItem from="1615855249914" duration="2295000" />
-    </task>
-    <task id="LOCAL-00020" summary="[H06_Weather]complete">
-      <created>1610211021448</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1610211021448</updated>
+      <workItem from="1615976236131" duration="1174000" />
+      <workItem from="1616033739249" duration="1274000" />
     </task>
     <task id="LOCAL-00021" summary="[H06_Weather]complete">
       <created>1610293013785</created>
@@ -508,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615857624553</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="[Note]Setting, Router">
+      <created>1615976473741</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1615976473741</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,7 +518,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/WebStudy" />
     </ignored-roots>
-    <MESSAGE value="[H07_Join&amp;Login]get Info Data(name, id,,,)" />
     <MESSAGE value="[TicTacToe]README" />
     <MESSAGE value="[H07_Join&amp;Login]Delete &amp; getUserInfo" />
     <MESSAGE value="[H05_TimeLine]Update REMADME" />
@@ -556,7 +542,8 @@
     <MESSAGE value="[Note]Update Header" />
     <MESSAGE value="[Note]Complete Settings" />
     <MESSAGE value="[Note]Router, Link" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Note]Router, Link" />
+    <MESSAGE value="[Note]Setting, Router" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Note]Setting, Router" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
