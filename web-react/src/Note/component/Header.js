@@ -7,8 +7,6 @@ import Icon_file from '../img/file.png';
 import Icon_back from '../img/back.png';
 import Icon_add_file from '../img/add-file.png';
 import Icon_checked from '../img/checked.png';
-import Icon_del from '../img/delete.png';
-import Icon_save from '../img/save-file.png';
 
 const HeadColor = ['#FFF4B9','#B9D1FF','#94FF9F','#D288FF','#676767'];
 const ContentColor = ['#FFFBE5','#E1EBFF','#D8FFDC','#EFD4FF','#C4C4C4'];

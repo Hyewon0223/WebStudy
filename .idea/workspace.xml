@@ -150,14 +150,7 @@
       <workItem from="1615785279270" duration="1657000" />
       <workItem from="1615855249914" duration="2295000" />
       <workItem from="1615976236131" duration="1174000" />
-      <workItem from="1616033739249" duration="1274000" />
-    </task>
-    <task id="LOCAL-00021" summary="[H06_Weather]complete">
-      <created>1610293013785</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1610293013785</updated>
+      <workItem from="1616033739249" duration="3143000" />
     </task>
     <task id="LOCAL-00022" summary="[BusInfo]get data(fail_CORS)">
       <created>1610461154315</created>
@@ -495,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615976473741</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="[Note]Complete Basic Write">
+      <created>1616070785068</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1616070785068</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +518,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/WebStudy" />
     </ignored-roots>
-    <MESSAGE value="[TicTacToe]README" />
     <MESSAGE value="[H07_Join&amp;Login]Delete &amp; getUserInfo" />
     <MESSAGE value="[H05_TimeLine]Update REMADME" />
     <MESSAGE value="[TicTacToe]Update REMADME" />
@@ -543,7 +542,8 @@
     <MESSAGE value="[Note]Complete Settings" />
     <MESSAGE value="[Note]Router, Link" />
     <MESSAGE value="[Note]Setting, Router" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Note]Setting, Router" />
+    <MESSAGE value="[Note]Complete Basic Write" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Note]Complete Basic Write" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

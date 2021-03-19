@@ -42,7 +42,7 @@ export const Note_Settings = () => {
             <Header state={'Settings'} color={HeadColor[user.theme]}/>
             <NameDiv>
                 <div>이름</div>
-                <input style={{backgroundColor:HeadColor[user.theme]}}type={"text"} name={"username"} value={user.username} onChange={getValue}/>
+                <input style={{backgroundColor:HeadColor[user.theme]}} type={"text"} name={"username"} value={user.username} onChange={getValue}/>
             </NameDiv>
             <SelectColor>
                 <div>색상</div>

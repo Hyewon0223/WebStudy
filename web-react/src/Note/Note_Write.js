@@ -15,11 +15,6 @@ export const Note_Write = () => {
         theme : UserTheme,
     });
 
-    const [docs, setDocs] = useState({
-        title : '',
-        content : '',
-    })
-
     return <>
         <Wrap style={{backgroundColor: ContentColor[user.theme]}}>
             <Header state={'Write'} color={HeadColor[UserTheme]}/>
