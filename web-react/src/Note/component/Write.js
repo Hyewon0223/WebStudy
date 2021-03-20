@@ -15,6 +15,7 @@ export const Write = (props) => {
     const UserName = window.localStorage.getItem("UserName");
     const UserTheme = window.localStorage.getItem("Theme");
     const DocsIdx = parseInt(window.localStorage.getItem("idx"));
+    const DocsNum = parseInt(window.localStorage.getItem("num"));
 
     const [user,setUser] = useState({
         theme : UserTheme,
@@ -43,15 +44,19 @@ export const Write = (props) => {
         else {
             window.localStorage.setItem(DocsIdx + "_Title", docs.title);
             window.localStorage.setItem(DocsIdx + "_Content", docs.content);
+            window.localStorage.setItem("num", DocsNum + 1);
             window.localStorage.setItem("idx", DocsIdx + 1);
         }
     }
 
     const DelClick = () => {
-        window.localStorage.removeItem(DocsIdx+"_Title");
-        window.localStorage.removeItem(DocsIdx+"_Content");
-        alert("삭제되었습니다");
-        history.push('/');
+        // window.localStorage.removeItem(DocsIdx+"_Title");
+        // window.localStorage.removeItem(DocsIdx+"_Content");
+        // // window.localStorage.setItem("num", DocsNum - 1);
+        //
+        // alert("삭제되었습니다");
+        //
+        // history.push('/');
     }
 
     return <>

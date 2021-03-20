@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c06288f1-e5bb-4a97-91ac-dfee3d6a78d8" name="Default Changelist" comment="README">
+    <list default="true" id="c06288f1-e5bb-4a97-91ac-dfee3d6a78d8" name="Default Changelist" comment="[Note]Use Local Storage for Store New Docs Data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -150,14 +150,7 @@
       <workItem from="1615785279270" duration="1657000" />
       <workItem from="1615855249914" duration="2295000" />
       <workItem from="1615976236131" duration="1174000" />
-      <workItem from="1616033739249" duration="3143000" />
-    </task>
-    <task id="LOCAL-00022" summary="[BusInfo]get data(fail_CORS)">
-      <created>1610461154315</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1610461154315</updated>
+      <workItem from="1616033739249" duration="3500000" />
     </task>
     <task id="LOCAL-00023" summary="[BusInfo]get data(fail2_CORS)">
       <created>1610539704435</created>
@@ -495,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616070785068</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="[Note]Use Local Storage for Store New Docs Data">
+      <created>1616136981875</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1616136981875</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +518,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/WebStudy" />
     </ignored-roots>
-    <MESSAGE value="[H07_Join&amp;Login]Delete &amp; getUserInfo" />
     <MESSAGE value="[H05_TimeLine]Update REMADME" />
     <MESSAGE value="[TicTacToe]Update REMADME" />
     <MESSAGE value="[H07_Join&amp;Login]README" />
@@ -543,7 +542,8 @@
     <MESSAGE value="[Note]Router, Link" />
     <MESSAGE value="[Note]Setting, Router" />
     <MESSAGE value="[Note]Complete Basic Write" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Note]Complete Basic Write" />
+    <MESSAGE value="[Note]Use Local Storage for Store New Docs Data" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Note]Use Local Storage for Store New Docs Data" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
