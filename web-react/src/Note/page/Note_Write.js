@@ -1,7 +1,7 @@
 import React, {useState,useEffect} from 'react';
-import Header from "./component/Header";
+import Header from "../component/Header";
 import {BrowserRouter as Router, Route, Redirect} from "react-router-dom";
-import Write from "./component/Write";
+import Write from "../component/Write";
 import styled from 'styled-components';
 
 const HeadColor = ['#FFF4B9','#B9D1FF','#94FF9F','#D288FF','#676767'];
